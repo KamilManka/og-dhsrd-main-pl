@@ -1931,7 +1931,7 @@ const domaincardList = [
   // { label: "Cardname", name: "cardid", domain: "Groza", level: 1, type: "Spell", recall: 0, pages: ["DH HF ???", "DH HF ???"], effects: "<p></p>" },
   // arcana cards
   {
-    label: "Rune Ward",
+    label: "Runiczna Osłona",
     name: "rune-ward",
     domain: "Arkana",
     domainGen: "Arkanów",
@@ -1940,10 +1940,10 @@ const domaincardList = [
     recall: 0,
     pages: ["DH Core 328", "DH Core 082/270"],
     effects:
-      "<p>You have a deeply personal trinket that can be infused with protective magic and held as a ward by you or an ally. Describe what it is and why it's important to you. The ward's holder can <strong><a href='#define-hope'>spend a Hope</a></strong> to reduce <a href='#define-damage'>incoming damage</a> by <strong>1d8</strong>.</p><p>If the Ward Die result is 8, the ward's power ends after it reduces damage this turn. It can be recharged for free on your next <a href='#define-downtime'>rest</a>.</p>",
+      "<p>Posiadasz ważny dla ciebie osobiście przedmiot, który może być napełniony ochronną magią i służy jako osłona dla siebie lub twojego sojusznika. Opisz, co to jest i dlaczego jest dla ciebie ważne. Osoba, która trzyma przedmiot, może <strong><a href='#define-hope'>wydać Nadzieję</a></strong>, by zmniejszyć <a href='#define-damage'>otrzymywane obrażenia</a> o <strong>1d8</strong>.</p><p>Jeśli wynik rzutu na Osłonę to 8, moc osłony kończy się po tym, jak zredukuje obrażenia w tej turze. Może być ona ponownie napełniona magią za darmo przy kolejnym <a href='#define-downtime'>odpoczynku</a>.</p>",
   },
   {
-    label: "Unleash Chaos",
+    label: "Uwolnij Chaos",
     name: "unleash-chaos",
     domain: "Arkana",
     domainGen: "Arkanów",
@@ -1952,10 +1952,10 @@ const domaincardList = [
     recall: 1,
     pages: ["DH Core 328", "DH Core 083/270"],
     effects:
-      "<p>At the beginning of a session, place a number of tokens equal to your <a href='#define-subclass'>Spellcast trait</a> on this card.</p><p>Make a <strong><a href='#define-spellcast-roll'>Spellcast Roll</a></strong> against a target within <a href='#define-range'>Far</a> range and spend any number of tokens to channel raw energy from within yourself to unleash against them. On a success, roll a number of <strong>d10s</strong> equal to the tokens you spent and deal that much <a href='#define-damage-type'>magic damage</a> to the target. <strong><a href='#define-stress'>Mark a Stress</a></strong> to replenish this card with tokens (up to your <a href='#define-subclass'>Spellcast trait</a>).</p><p>At the end of each session, clear all unspent tokens.</p>",
+      "<p>Na początku sesji umieść na tej karcie liczbę tokenów równą twojej <a href='#define-subclass'>cesze Czarowania</a>.</p><p>Wykonaj <strong><a href='#define-spellcast-roll'>rzut na Czarowanie</a></strong> przeciwko celowi w <a href='#define-range'>Dalekiej</a> odległości i wydaj dowolną liczbę tokenów, by wyrzucić z siebie nieokiełznaną energię przeciwko temu celowi. Przy sukcesie rzuć liczbę <strong>k10</strong> równą liczbie tokenów, które zużyłeś i zadaj celowi taką sumę <a href='#define-damage-type'>magicznych obrażeń</a>. <strong><a href='#define-stress'>Zaznacz Stres</a></strong>, by uzupełnić tokeny na tej karcie (maksymalnie do poziomu twojej <a href='#define-subclass'>cechy Czarowania</a>).</p><p>Na końcu każdej sesji usuń wszystkie niewykorzystane tokeny.</p>",
   },
   {
-    label: "Wall Walk",
+    label: "Chodzenie po ścianach",
     name: "wall-walk",
     domain: "Arkana",
     domainGen: "Arkanów",
@@ -1964,10 +1964,10 @@ const domaincardList = [
     recall: 1,
     pages: ["DH Core 328", "DH Core 084/270"],
     effects:
-      "<p><strong><a href='#define-hope'>Spend a Hope</a></strong> to allow a creature you can touch to climb on walls and ceilings as easily as walking on the ground. This lasts until the end of the scene or you cast Wall Walk again.</p>",
+      "<p><strong><a href='#define-hope'>Wydaj nadzieję</a></strong>, by sprawić, że stworzenie, które możesz dotknąć, będzie mogło wspinać się po ścianach i chodzić po suficie równie łatwo, jak chodzi po ziemi. Zaklęcie trwa aż do końca sceny lub aż do czasu, gdy ponownie rzucisz Chodzenie po ścianach.</p>",
   },
   {
-    label: "Cinder Grasp",
+    label: "Chwyt Spopielenia",
     name: "cinder-grasp",
     domain: "Arkana",
     domainGen: "Arkanów",
@@ -1976,10 +1976,10 @@ const domaincardList = [
     recall: 1,
     pages: ["DH Core 328", "DH Core 085/270"],
     effects:
-      "<p>Make a <strong><a href='#define-spellcast-roll'>Spellcast Roll</a></strong> against a target within <a href='#define-range'>Melee</a> range. On a success, the target instantly bursts into flames, takes <strong>1d20+3</strong> <a href='#define-damage-type'>magic damage</a>, and is <a href='#define-condition'>temporarily</a> lit <em>On Fire</em>. When a creature acts while <em>On Fire</em>, they must take an extra <strong>2d6</strong> <a href='#define-damage-type'>magic damage</a> if they are still <em>On Fire</em> at the end of their action.</p>",
+      "<p>Wykonaj <strong><a href='#define-spellcast-roll'>rzut na Czarowanie</a></strong> przeciwko celowi w zasięgu <a href='#define-range'>Zwarcia</a>. W wypadku sukcesu celu natychmiast staje w płomieniach, odnosi <strong>1k20+3</strong> <a href='#define-damage-type'>magicznych obrażeń</a> i <a href='#define-condition'>tymczasowo</a> zyskuje status <em>Płonącego</em>. Gdy stworzenie podejmuje akcję będąc <em>Płonącym</em>, musi otrzymać dodatkowe <strong>2k6</strong> <a href='#define-damage-type'>magicznych obrażeń</a>, jeśli nadal jest <em>Płonące</em> na końcu swojej akcji.</p>",
   },
   {
-    label: "Floating Eye",
+    label: "Unoszące się Oko",
     name: "floating-eye",
     domain: "Arkana",
     domainGen: "Arkanów",
@@ -1988,7 +1988,7 @@ const domaincardList = [
     recall: 0,
     pages: ["DH Core 328", "DH Core 086/270"],
     effects:
-      "<p><strong><a href='#define-hope'>Spend a Hope</a></strong> to create a single, small floating orb that you can move anywhere within <a href='#define-range'>Very Far</a> range. While this spell is active, you can see through the orb as though you're looking out from its position. You can transition between using your own senses and seeing through the orb freely. If the orb takes damage or moves out of range, the spell ends.</p>",
+      "<p><strong><a href='#define-hope'>Wydaj Nadzieję</a></strong>, by przywołać jedną małą unoszącą się kulę, którą możesz przemieścić gdziekolwiek w <a href='#define-range'>Bardzo dalekiej</a> odległości. W czasie, gdy działa to zaklęcie, możesz widzieć poprzez tą kulę tak, jakbyś patrzył z jej pozycji. Możesz swobodnie przechodzić między używaniem swoich zmysłów a patrzeniem poprzez kulę. Jeśli kula otrzyma obrażenia lub przesunie się poza dozwoloną odległość, zaklęcie dobiega końca.</p>",
   },
   {
     label: "Counterspell",
@@ -2184,7 +2184,7 @@ const domaincardList = [
   },
   // blade cards
   {
-    label: "Get Back Up",
+    label: "Weź się w garść",
     name: "get-back-up",
     domain: "Ostrze",
     domainGen: "Ostrza",
@@ -2193,10 +2193,10 @@ const domaincardList = [
     recall: 1,
     pages: ["DH Core 329", "DH Core 103/270"],
     effects:
-      "<p>When you take <a href='#define-hp'>Severe</a> damage, you can <strong><a href='#define-stress'>mark a Stress</a></strong> to reduce the severity by one threshold.",
+      "<p>Gdy otrzymasz <a href='#define-hp'>Ciężkie</a> obrażenia, możesz <strong><a href='#define-stress'>zaznaczyć Stres</a></strong>, by zmniejszyć ciężkość obrażeń o jeden poziom.</p>",
   },
   {
-    label: "Not Good Enough",
+    label: "Umiesz lepiej",
     name: "not-good-enough",
     domain: "Ostrze",
     domainGen: "Ostrza",
@@ -2205,10 +2205,10 @@ const domaincardList = [
     recall: 1,
     pages: ["DH Core 329", "DH Core 104/270"],
     effects:
-      "<p>When you roll your <a href='#define-damage'>damage dice</a>, you can <a href='#define-reroll'>reroll</a> any 1s or 2s.</p>",
+      "<p>Gdy rzucasz <a href='#define-damage'>kośćmi obrażeń</a>, możesz <a href='#define-reroll'>przerzucić</a> dowolne 1-ki lub 2-ki.</p>",
   },
   {
-    label: "Whirlwind",
+    label: "Wichura",
     name: "whirlwind",
     domain: "Ostrze",
     domainGen: "Ostrza",
@@ -2217,7 +2217,7 @@ const domaincardList = [
     recall: 0,
     pages: ["DH Core 329", "DH Core 105/270", "Errata"],
     effects:
-      "<p>When you make a successful attack against a target within <a href='#define-range'>Very Close</a> range, you can <strong><a href='#define-hope'>spend a Hope</a></strong> to use the attack against all other targets within <a href='#define-range'>Very Close</a> range. All additional adversaries you succeed against with this ability take half damage.</p>",
+      "<p>Gdy wykonasz udany atak przeciwko celowi w <a href='#define-range'>Bardzo bliskiej</a> odległości, możesz <strong><a href='#define-hope'>wydać Nadzieję</a></strong>, by wykorzystać ten atak przeciwko wszystkim innym celom w <a href='#define-range'>Bardzo bliskiej</a> odległości. Wszyscy dodatkowi przeciwnicy, których udaje ci się dosięgnąć za pomocą tej zdolności, otrzymują połowę obrażeń.</p>",
   },
   {
     label: "A Soldier's Bond",
@@ -3473,7 +3473,7 @@ const domaincardList = [
   },
   // midnight cards
   {
-    label: "Pick and Pull",
+    label: "Sprytem lub siłą",
     name: "pick-and-pull",
     domain: "Północ",
     domainGen: "Północy",
@@ -3482,10 +3482,10 @@ const domaincardList = [
     recall: 0,
     pages: ["DH Core 336", "DH Core 187/270"],
     effects:
-      "<p>You have <a href='#define-advantage'>advantage</a> on <a href='#define-action'>action rolls</a> to pick nonmagical locks, disarm nonmagical traps, or steal items from a target (either through stealth or by force).</p>",
+      "<p>Masz ułatwienie <a href='#define-advantage'>ułatwienie</a> w <a href='#define-action'>rzutach akcji</a> mających na celu otwarcie zamka wytrychem, rozbrojenie niemagicznej pułapki lub kradzieży przedmiotu jakiejś osobie (czy to ukradkiem, czy siłą).</p>",
   },
   {
-    label: "Rain of Blades",
+    label: "Deszcz ostrzy",
     name: "rain-of-blades",
     domain: "Północ",
     domainGen: "Północy",
@@ -3494,7 +3494,7 @@ const domaincardList = [
     recall: 1,
     pages: ["DH Core 336", "DH Core 188/270"],
     effects:
-      "<p><strong><a href='#define-hope'>Spend a Hope</a></strong> to make a <strong><a href='#define-spellcast-roll'>Spellcast Roll</a></strong> and conjure throwing blades that strike out at all targets within <a href='#define-range'>Very Close</a> range. Targets you succeed against take <strong>d8+2</strong> <a href='#define-damage-type'>magic damage</a> using your <a href='#define-damage'>Proficiency</a>.</p><p>If a target you hit is <a href='#define-condition'><em>Vulnerable</em></a>, they take an extra <strong>1d8</strong> damage.</p>",
+      "<p><strong><a href='#define-hope'>Wydaj Nadzieję</a></strong>, aby wykonać <strong><a href='#define-spellcast-roll'>rzut na Czarowanie</a></strong> i wyczarować ostrza padające na wszystkie cele znajdujące się w <a href='#define-range'>Bardzo bliskiej</a> odległości. Cele, wobec których twój atak się powiedzie, otrzymują <strong>k8+2</strong> <a href='#define-damage-type'>magicznych obrażeń</a> z użyciem twojej <a href='#define-damage'>Biegłości</a>.</p><p>Jeśli cel, w który trafisz, jest <a href='#define-condition'><em>Bezbronny</em></a>, otrzymuje on dodatkowe <strong>1k8</strong> obrażeń.</p>",
   },
   {
     label: "Uncanny Disguise",
