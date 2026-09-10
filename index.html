@@ -160,6 +160,7 @@
 					<span class="og-subtitle">System Reference Document</span>
 				</h1>
 				<p class="small text-center">version 3.0f (2026-08-30)</p>
+				<p class="small text-center">wersja polska (2026-09-10)</p>
 				<ul class="list-inline text-center">
 					<li class="list-inline-item"><a class="btn btn-light mt-1 mb-1 theme-light border text-white"
 							href="#character-sheet">Character Sheet</a></li>
@@ -170,6 +171,150 @@
 					<li class="list-inline-item"><a class="btn btn-light mt-1 mb-1 theme-light border text-white"
 							href="https://ko-fi.com/oldgus">&#9749; Ko-fi</a></li>
 				</ul>
+				<hr>
+				<div class="row">
+					<div class="col-12 col-md-6">
+						<div id="define-daggerheart">
+							<h4 id="daggerheart">Uwagi do polskiego tłumaczenia<a class="og-h-anchor"
+									href="#daggerheart" title="Permalink" aria-hidden="true"></a></h4>
+							<p>Niniejsza strona to polski przekład wersji SRD do Daggerheart przygotowanej przez Old
+								Gusa. Oryginalna publikacja znajduje się pod tym linkiem: <a
+									href="https://github.com/callmepartario/og-dhsrd">https://github.com/callmepartario/og-dhsrd</a>.
+								Tłumaczenie zostało wykonane z myślą o polskojęzycznych graczach za zgodą autora
+								wspomnianej strony.</p>
+							<p>Jeśli masz jakiekolwiek pytania lub uwagi dotyczące tłumaczenia, proszę o kontakt z
+								autorem strony:</p>
+
+							<!-- PRZYCISK „ZGŁOŚ UWAGĘ” + WYSKAKUJĄCE OKIENKO -->
+							<style>
+								/* Przycisk */
+								.feedback-button {
+									padding: 10px 18px;
+									background: #333;
+									color: white;
+									border: none;
+									border-radius: 5px;
+									cursor: pointer;
+									font-size: 15px;
+								}
+
+								.feedback-button:hover {
+									background: #555;
+								}
+
+								/* Tło okienka */
+								.feedback-modal {
+									display: none;
+									position: fixed;
+									z-index: 1000;
+									inset: 0;
+									background: rgba(0, 0, 0, 0.5);
+									align-items: center;
+									justify-content: center;
+								}
+
+								/* Samo okienko */
+								.feedback-box {
+									background: white;
+									width: 90%;
+									max-width: 500px;
+									padding: 25px;
+									border-radius: 8px;
+									box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+									position: relative;
+								}
+
+								.feedback-box h2 {
+									margin-top: 0;
+								}
+
+								.feedback-box label {
+									display: block;
+									margin-top: 15px;
+									margin-bottom: 5px;
+								}
+
+								.feedback-box textarea,
+								.feedback-box input {
+									width: 100%;
+									box-sizing: border-box;
+									padding: 10px;
+									border: 1px solid #ccc;
+									border-radius: 5px;
+									font-family: inherit;
+									font-size: 15px;
+								}
+
+								.feedback-box textarea {
+									min-height: 140px;
+									resize: vertical;
+								}
+
+								.feedback-submit {
+									margin-top: 15px;
+									padding: 10px 18px;
+									background: #333;
+									color: white;
+									border: none;
+									border-radius: 5px;
+									cursor: pointer;
+								}
+
+								.feedback-submit:hover {
+									background: #555;
+								}
+
+								/* X zamykające */
+								.feedback-close {
+									position: absolute;
+									right: 15px;
+									top: 10px;
+									font-size: 25px;
+									cursor: pointer;
+									color: #777;
+								}
+
+								.feedback-close:hover {
+									color: #000;
+								}
+							</style>
+							<button class="feedback-button" onclick="openFeedback()"> Zgłoś uwagę </button>
+
+							<!-- WYSKAKUJĄCE OKIENKO -->
+							<div id="feedbackModal" class="feedback-modal">
+								<div class="feedback-box"> <span class="feedback-close"
+										onclick="closeFeedback()">&times;</span>
+									<h2>Zgłoś uwagę</h2>
+									<p> Znalazłeś błąd lub masz sugestię dotyczącą strony? Napisz poniżej. </p>
+									<!-- FORMULARZ -->
+									<form action="https://api.web3forms.com/submit" method="POST">
+										<input type="hidden" name="access_key" value="7df7660f-07a2-4e04-886d-23f729eaf713">
+										<label for="email"> Twój e-mail <small>(opcjonalnie)</small> </label>
+										<input type="email" id="email" name="email" placeholder="np. jan@example.com">
+										<label for="message"> Wiadomość </label>
+										<textarea id="message" name="message" placeholder="Opisz swoją uwagę..." required></textarea>
+										<button type="submit" class="feedback-submit"> Wyślij </button> </form>
+								</div>
+							</div>
+							<script>
+								document.getElementById("feedbackModal").addEventListener("click", function(event) {
+  									if (event.target === this) {
+    							closeFeedback();
+  								}
+								});
+								function openFeedback() {
+									document.getElementById("feedbackModal").style.display = "flex";
+								}
+
+								function closeFeedback() {
+									document.getElementById("feedbackModal").style.display = "none";
+								} // Zamknij po kliknięciu w tło document.getElementById("feedbackModal").addEventListener("click", function(event) { if (event.target === this) { closeFeedback(); } }); // Zamknij klawiszem ESC document.addEventListener("keydown", function(event) { if (event.key === "Escape") { closeFeedback(); } }); 
+							</script>
+
+						</div>
+					</div>
+				</div>
+
 				<hr>
 				<div class="row">
 					<div class="col-12 col-md-6">
@@ -312,25 +457,25 @@
 									aria-hidden="true">
 							</div>
 							<div class="og-omit">
-								<h4 id="video-overview">Video Overview<a class="og-h-anchor" href="#video-overview"
+								<h4 id="video-overview">Omówienie wideo (po angielsku)<a class="og-h-anchor" href="#video-overview"
 										title="Permalink" aria-hidden="true"></a></h4>
 								<ul class="og-list-inline og-ref og-omit">
-									<li>Editorial Addition</li>
+									<li>Dodatek od redakcji</li>
 								</ul>
-								<p>This video covers the <a href="#flow-of-the-game">flow of the game</a>, and several
-									<a href="#key-terms">key terms</a>, including:</p>
+								<p>Poniższe wideo porusza temat <a href="#flow-of-the-game">rytmu gry</a> oraz kilka
+									<a href="#key-terms">kluczowych pojęć</a>, m.in.:</p>
 								<ul class="og-list-inline">
-									<li><a href="#define-action">action rolls</a></li>
-									<li><a href="#define-hope">Hope</a></li>
-									<li><a href="#define-fear">Fear</a></li>
-									<li><a href="#define-damage">damage rolls</a></li>
-									<li><a href="#define-reaction-roll">reaction rolls</a></li>
-									<li><a href="#define-evasion">Evasion</a></li>
-									<li><a href="#define-hp">damage thresholds and Hit Points</a></li>
-									<li><a href="#define-armor">armor</a></li>
-									<li><a href="#define-range">range</a></li>
-									<li><a href="#define-stress">Stress</a></li>
-									<li><a href="#define-downtime">downtime</a></li>
+									<li><a href="#define-action">rzuty akcji</a></li>
+									<li><a href="#define-hope">Nadzieja</a></li>
+									<li><a href="#define-fear">Strach</a></li>
+									<li><a href="#define-damage">rzuty na obrażenia</a></li>
+									<li><a href="#define-reaction-roll">rzuty reakcji</a></li>
+									<li><a href="#define-evasion">Unik</a></li>
+									<li><a href="#define-hp">progi obrażeń i Punkty Wytrzymałości</a></li>
+									<li><a href="#define-armor">pancerz</a></li>
+									<li><a href="#define-range">zasięg</a></li>
+									<li><a href="#define-stress">Stres</a></li>
+									<li><a href="#define-downtime">odpoczynek</a></li>
 								</ul>
 							</div>
 							<div class="ratio ratio-16x9 mb-3 mt-3">
@@ -338,8 +483,7 @@
 									src="https://www.youtube.com/embed/6bV2K5eoJgk"></iframe>
 							</div>
 							<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3 og-omit">
-								<p>For more on how to play, see <a href="#rules">Rules of the Game</a>. For videos of
-									groups playing the game, see <a
+								<p>Więcej informacji na temat gry znajdziesz w sekcji <a href="#rules">Zasady gry</a>. Wideo z rozgrywkami grup można znaleźć na stronie <a
 										href="https://heartofdaggers.com/actual-play/">heartofdaggers.com &mdash;
 										Daggerheart Actual Plays</a>.</p>
 							</div>
@@ -372,7 +516,7 @@
 						<h4 id="getting-ready-to-play">Przygotowanie do gry<a class="og-h-anchor"
 								href="#getting-ready-to-play" title="Permalink" aria-hidden="true"></a></h4>
 						<ul class="og-list-inline og-ref og-omit">
-							<li>Dodatek redakcyjny</li>
+							<li>Dodatek od redakcji</li>
 						</ul>
 						<dl>
 							<dt>Tworzenie postaci</dt>
@@ -1292,7 +1436,8 @@
 							</div>
 						</div>
 						<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3 og-omit">
-							<p><a href="#define-gm-move">Ruchem MG</a> może być niemal wszystko, co posuwa opowieść do przodu &mdash; patrz <a href="#define-gm-move-examples">przykłady ruchów MG</a>.</p>
+							<p><a href="#define-gm-move">Ruchem MG</a> może być niemal wszystko, co posuwa opowieść do
+								przodu &mdash; patrz <a href="#define-gm-move-examples">przykłady ruchów MG</a>.</p>
 						</div>
 					</div>
 					<div class="col-12 col-md-6">
@@ -1730,8 +1875,8 @@
 							<p>Istnieje kilka specjalnych rodzajów <a href="#define-action">rzutów akcji</a>, które
 								modyfikują zwyczajną <a href="#define-procedure">procedurę</a>: <a
 									href="#define-trait-roll">rzuty na cechę</a>, <a href="#define-spellcast-roll">rzuty
-									na Czarowanie</a>, <a href="#define-group-action-roll">grupowe rzuty akcji</a> oraz <a
-									href="#define-tag-team-roll">rzuty zespołowe</a>. W sekcji dotyczącej <a
+									na Czarowanie</a>, <a href="#define-group-action-roll">grupowe rzuty akcji</a> oraz
+								<a href="#define-tag-team-roll">rzuty zespołowe</a>. W sekcji dotyczącej <a
 									href="#define-combat">walki</a> zdefiniowane są dwa inne typy rzutów: <a
 									href="#define-attack">rzuty na atak</a> oraz <a href="#define-damage">rzuty na
 									obrażenia</a>.</p>
@@ -1771,7 +1916,8 @@
 							<ul class="og-list-inline og-ref og-omit">
 								<li>DH Core 96</li>
 							</ul>
-							<p><strong>Rzuty na Czarowanie</strong> to <a href="#define-trait-roll">rzuty na cechę</a>, które
+							<p><strong>Rzuty na Czarowanie</strong> to <a href="#define-trait-roll">rzuty na cechę</a>,
+								które
 								wymagają użycia twojej <strong>cechy czarowania</strong>. Jeśli posiadasz cechę
 								czarowania, to jest ona określona przez twoją <a href="#define-subclass">podklasę</a>.
 								Udany rzut na Czarowanie aktywuje skutki opisane przez używaną właściwość.</p>

@@ -33,7 +33,7 @@ const classesList = [
     name: "assassin",
     pages: ["DH HF 8"],
     summarybrief:
-      "<strong><a href='#define-assassin'>Assassins</a></strong> are masters at inflicting deadly injuries with precise strikes.",
+      "<strong><a href='#define-assassin'>Asasyni</a></strong> są mistrzami zadawania śmiertelnych obrażeń z pomocą precyzyjnych ciosów.",
     summary:
       "Assassins are masters at inflicting deadly injuries with precise strikes. Unlike those who wield violence as only a means to an end, assassins approach death as a profession. Many members of this class believe theirs is a worthy, if not sacred, trade, and some join guilds to hone their craft, define their beliefs, and earn money. People from all walks of life hire assassins for their skills: powerful rulers looking to avoid all-out war, business leaders seeking to eliminate the competition, and even average people hoping to settle a grudge. Often, an assassin is the last resort for killing those previously believed to be unkillable. While some of these deadly professionals will destroy anyone in their path for the right reasons or the right price, others hold strict moral codes or personal rules that dictate their targets. Those who end up the target of an assassin should count themselves among the dead.",
     domains: ["Ostrze", "Północ"],
@@ -1952,7 +1952,7 @@ const domaincardList = [
     recall: 1,
     pages: ["DH Core 328", "DH Core 083/270"],
     effects:
-      "<p>Na początku sesji umieść na tej karcie liczbę tokenów równą twojej <a href='#define-subclass'>cesze Czarowania</a>.</p><p>Wykonaj <strong><a href='#define-spellcast-roll'>rzut na Czarowanie</a></strong> przeciwko celowi w <a href='#define-range'>Dalekiej</a> odległości i wydaj dowolną liczbę tokenów, by wyrzucić z siebie nieokiełznaną energię przeciwko temu celowi. Przy sukcesie rzuć liczbę <strong>k10</strong> równą liczbie tokenów, które zużyłeś i zadaj celowi taką sumę <a href='#define-damage-type'>magicznych obrażeń</a>. <strong><a href='#define-stress'>Zaznacz Stres</a></strong>, by uzupełnić tokeny na tej karcie (maksymalnie do poziomu twojej <a href='#define-subclass'>cechy Czarowania</a>).</p><p>Na końcu każdej sesji usuń wszystkie niewykorzystane tokeny.</p>",
+      "<p>Na początku sesji umieść na tej karcie liczbę tokenów równą twojej <a href='#define-subclass'>cesze Czarowania</a>.</p><p>Wykonaj <strong><a href='#define-spellcast-roll'>rzut na Czarowanie</a></strong> przeciwko celowi w <a href='#define-range'>Dalekim</a> zasięgu i wydaj dowolną liczbę tokenów, by wyrzucić z siebie nieokiełznaną energię przeciwko temu celowi. Przy sukcesie rzuć liczbę <strong>k10</strong> równą liczbie tokenów, które zużyłeś i zadaj celowi taką sumę <a href='#define-damage-type'>magicznych obrażeń</a>. <strong><a href='#define-stress'>Zaznacz Stres</a></strong>, by uzupełnić tokeny na tej karcie (maksymalnie do poziomu twojej <a href='#define-subclass'>cechy Czarowania</a>).</p><p>Na końcu każdej sesji usuń wszystkie niewykorzystane tokeny.</p>",
   },
   {
     label: "Chodzenie po ścianach",
@@ -1988,7 +1988,7 @@ const domaincardList = [
     recall: 0,
     pages: ["DH Core 328", "DH Core 086/270"],
     effects:
-      "<p><strong><a href='#define-hope'>Wydaj Nadzieję</a></strong>, by przywołać jedną małą unoszącą się kulę, którą możesz przemieścić gdziekolwiek w <a href='#define-range'>Bardzo dalekiej</a> odległości. W czasie, gdy działa to zaklęcie, możesz widzieć poprzez tą kulę tak, jakbyś patrzył z jej pozycji. Możesz swobodnie przechodzić między używaniem swoich zmysłów a patrzeniem poprzez kulę. Jeśli kula otrzyma obrażenia lub przesunie się poza dozwoloną odległość, zaklęcie dobiega końca.</p>",
+      "<p><strong><a href='#define-hope'>Wydaj Nadzieję</a></strong>, by przywołać jedną małą unoszącą się kulę, którą możesz przemieścić gdziekolwiek w <a href='#define-range'>Bardzo dalekim</a> zasięgu. W czasie, gdy działa to zaklęcie, możesz widzieć poprzez tą kulę tak, jakbyś patrzył z jej pozycji. Możesz swobodnie przechodzić między używaniem swoich zmysłów a patrzeniem poprzez kulę. Jeśli kula otrzyma obrażenia lub przesunie się poza dozwolony zasięg, zaklęcie dobiega końca.</p>",
   },
   {
     label: "Counterspell",
@@ -2217,7 +2217,7 @@ const domaincardList = [
     recall: 0,
     pages: ["DH Core 329", "DH Core 105/270", "Errata"],
     effects:
-      "<p>Gdy wykonasz udany atak przeciwko celowi w <a href='#define-range'>Bardzo bliskiej</a> odległości, możesz <strong><a href='#define-hope'>wydać Nadzieję</a></strong>, by wykorzystać ten atak przeciwko wszystkim innym celom w <a href='#define-range'>Bardzo bliskiej</a> odległości. Wszyscy dodatkowi przeciwnicy, których udaje ci się dosięgnąć za pomocą tej zdolności, otrzymują połowę obrażeń.</p>",
+      "<p>Gdy wykonasz udany atak przeciwko celowi w <a href='#define-range'>Bardzo bliskim</a> zasięgu, możesz <strong><a href='#define-hope'>wydać Nadzieję</a></strong>, by wykorzystać ten atak przeciwko wszystkim innym celom w <a href='#define-range'>Bardzo bliskim</a> zasięgu. Wszyscy dodatkowi przeciwnicy, których udaje ci się dosięgnąć za pomocą tej zdolności, otrzymują połowę obrażeń.</p>",
   },
   {
     label: "Braterstwo broni",
@@ -3494,7 +3494,7 @@ const domaincardList = [
     recall: 1,
     pages: ["DH Core 336", "DH Core 188/270"],
     effects:
-      "<p><strong><a href='#define-hope'>Wydaj Nadzieję</a></strong>, aby wykonać <strong><a href='#define-spellcast-roll'>rzut na Czarowanie</a></strong> i wyczarować ostrza padające na wszystkie cele znajdujące się w <a href='#define-range'>Bardzo bliskiej</a> odległości. Cele, wobec których twój atak się powiedzie, otrzymują <strong>k8+2</strong> <a href='#define-damage-type'>magicznych obrażeń</a> z użyciem twojej <a href='#define-damage'>Biegłości</a>.</p><p>Jeśli cel, w który trafisz, jest <a href='#define-condition'><em>Bezbronny</em></a>, otrzymuje on dodatkowe <strong>1k8</strong> obrażeń.</p>",
+      "<p><strong><a href='#define-hope'>Wydaj Nadzieję</a></strong>, aby wykonać <strong><a href='#define-spellcast-roll'>rzut na Czarowanie</a></strong> i wyczarować ostrza padające na wszystkie cele znajdujące się w <a href='#define-range'>Bardzo bliskim</a> zasięgu. Cele, wobec których twój atak się powiedzie, otrzymują <strong>k8+2</strong> <a href='#define-damage-type'>magicznych obrażeń</a> z użyciem twojej <a href='#define-damage'>Biegłości</a>.</p><p>Jeśli cel, w który trafisz, jest <a href='#define-condition'><em>Bezbronny</em></a>, otrzymuje on dodatkowe <strong>1k8</strong> obrażeń.</p>",
   },
   {
     label: "Niesmowite przebranie",
@@ -3518,7 +3518,7 @@ const domaincardList = [
     recall: 1,
     pages: ["DH Core 336", "DH Core 190/270"],
     effects:
-      "<p><strong><a href='#define-hope'>Wydaj nadzieję</a></strong>, aby wezwać humanoidalnych rozmiarów ducha, który potrafi dla ciebie przemieszczać lub nosić rzeczy aż do następnego <a href='#define-downtime'>odpoczynku</a>.</p><p>Możesz również wysłać go, by zaatakował <a href='#define-adversary'>przeciwnika</a>. By to uczynić, wykonaj <strong><a href='#define-spellcast-roll'>rzut na Czarowanie</a></strong> przeciwko celowi znajdującemu się w <a href='#define-range'>Bardzo dalekiej</a> odległości. Jeśli się powiedzie, duch przemieszcza się w zasięg <a href='#define-range'>Zwarcia</a> z tym celem. Rzuć liczbą <strong>k6</strong> równą twojej <a href='#define-subclass'>cesze Czarowania</a> i zadaj celowi taką sumę <a href='#define-damage-type'>magicznych obrażeń</a>. Po tym duch rozpływa się w powietrzu. Możesz mieć tylko jednego ducha jednocześnie.</p>",
+      "<p><strong><a href='#define-hope'>Wydaj nadzieję</a></strong>, aby wezwać humanoidalnych rozmiarów ducha, który potrafi dla ciebie przemieszczać lub nosić rzeczy aż do następnego <a href='#define-downtime'>odpoczynku</a>.</p><p>Możesz również wysłać go, by zaatakował <a href='#define-adversary'>przeciwnika</a>. By to uczynić, wykonaj <strong><a href='#define-spellcast-roll'>rzut na Czarowanie</a></strong> przeciwko celowi znajdującemu się w <a href='#define-range'>Bardzo dalekim</a> zasięgu. Jeśli się powiedzie, duch przemieszcza się w zasięg <a href='#define-range'>Zwarcia</a> z tym celem. Rzuć liczbą <strong>k6</strong> równą twojej <a href='#define-subclass'>cesze Czarowania</a> i zadaj celowi taką sumę <a href='#define-damage-type'>magicznych obrażeń</a>. Po tym duch rozpływa się w powietrzu. Możesz mieć tylko jednego ducha jednocześnie.</p>",
   },
   {
     label: "Więzy cienia",
@@ -5426,8 +5426,8 @@ const traitList = [
 // ranges
 const rangesList = [
   {
-    label: "Melee",
-    summary: "Touch",
+    label: "Zwarcie",
+    summary: "W zasięgu ręki",
     move: "&mdash;",
     feet: "&lt; 5",
     meters: "&lt; 1.5",
@@ -5437,57 +5437,57 @@ const rangesList = [
     cm: "2.5",
   },
   {
-    label: "Very Close",
-    summary: "See fine details",
-    move: "Move and take an <a href='#define-action'>action</a>",
+    label: "Bardzo bliski",
+    summary: "Widzisz drobne szczegóły",
+    move: "Ruch i podjęcie <a href='#define-action'>akcji</a>",
     feet: "5&ndash;10",
     meters: "1.5&ndash;3",
-    ruler: "Short length of a game card",
+    ruler: "Krótsza krawędź karty do gry",
     squares: "3",
     inches: "2&ndash;3",
     cm: "5&ndash;7.6",
   },
   {
-    label: "Close",
-    summary: "See prominent details",
-    move: "Move and take an <a href='#define-action'>action</a>",
+    label: "Bliski",
+    summary: "Widzisz wyraźne szczegóły",
+    move: "Ruch i podjęcie <a href='#define-action'>akcji</a>",
     feet: "10&ndash;30",
     meters: "3&ndash;9.1",
-    ruler: "Pencil",
+    ruler: "Długość ołówka",
     squares: "6",
     inches: "5&ndash;6",
     cm: "12.7&ndash;15.2",
   },
   {
-    label: "Far",
-    summary: "See few details",
-    move: "Succeed an <a href='#define-trait-roll'>Agility Roll</a>",
+    label: "Daleki",
+    summary: "Widzisz tylko kilka szczegółów",
+    move: "Zdanie <a href='#define-trait-roll'>rzutu na Zwinność</a>",
     feet: "30&ndash;100",
     meters: "9.1&ndash;30.5",
-    ruler: "Long edge of a piece of copy paper",
+    ruler: "Długa krawędź kartki z papieru",
     squares: "12",
     inches: "11&ndash;12",
     cm: "28.0&ndash;30.5",
   },
   {
-    label: "Very Far",
-    summary: "No details",
-    move: "Succeed an <a href='#define-trait-roll'>Agility Roll</a>",
+    label: "Bardzo daleki",
+    summary: "Nie dostrzegasz szczegółów",
+    move: "Zdanie <a href='#define-trait-roll'>rzutu na Zwinność</a>",
     feet: "100&ndash;300",
     meters: "30.5&ndash;91",
-    ruler: "Within the bounds of the conflict or scene",
+    ruler: "Na granicach starcia lub sceny",
     squares: "13+",
     inches: "&mdash;",
     cm: "&mdash;",
   },
   {
-    label: "Out of Range",
-    summary: "Can't target",
+    label: "Poza zasięgiem",
+    summary: "Nie można oznaczyć celu",
     move: "&mdash;",
     feet: "&gt; 300",
     meters: "&gt; 91",
     ruler: "&mdash;",
-    squares: "Off map",
+    squares: "Poza planszą",
     inches: "&mdash;",
     cm: "&mdash;",
   },
@@ -22433,7 +22433,7 @@ function printCC() {
   CC += "<div id='define-character-creation'>"; // open def
   CC +=
     "<h2 id='character-creation'>Tworzenie postaci<a class='og-h-anchor' href='#character-creation' title='Permalink' aria-hidden='true'></a></h2>";
-  CC += getReferences(["DH Core 13", "Dodatek redakcji"]);
+  CC += getReferences(["DH Core 13", "Dodatek od redakcji"]);
   CC += "<div class='og-topbar'>"; // open topbar
   CC += getCCnote(
     "Stwórz swoją postać gracza (PG) dokonując serii wyborów. Pomyśl o tym, jakiego rodzaju <a href='#define-action'>ruchy i akcje</a> chciał(a)byś wykonywać i w jakiego rodzaju <a href='#define-action'>rzutach akcji</a> chcesz odnosić sukces. Niektóre wybory nie będą wpływać na mechanikę gry, ale mogą mieć duży wpływ na fabułę.</p>",
@@ -22454,7 +22454,7 @@ function printCC() {
   CC += "<div id='define-character-sheet'>"; // open def
   CC +=
     "<h3 id='character-sheet'>Karta postaci<a class='og-h-anchor' href='#character-sheet' title='Permalink' aria-hidden='true'></a></h3>";
-  CC += getReferences(["Dodatek redakcji"]);
+  CC += getReferences(["Dodatek od redakcji"]);
   CC += getCCnote(
     "Your <strong>character sheet</strong> contains information about your character you'll use to play the game. You can download and print official <a href='https://www.daggerheart.com/downloads/'>Daggerheart Character Sheets and Guides</a>, or use a different solution the GM chooses&mdash;for example, a virtual tabletop (VTT).</p>",
   );
@@ -22509,7 +22509,7 @@ function printCC() {
   CC += "</ul>";
   CC += "<ul class='list-inline'>";
   CC +=
-    "<li class='list-inline-item'><p><button class='btn mt-1 mb-1 theme-light border' type='button' id='ccRandomize' aria-label='Generate Random PC Options}'><span aria-hidden='true'>&#x1F3B2;&nbsp;</span>Generate Random PC</button></p></li>";
+    "<li class='list-inline-item'><p><button class='btn mt-1 mb-1 theme-light border' type='button' id='ccRandomize' aria-label='Generate Random PC Options}'><span aria-hidden='true'>&#x1F3B2;&nbsp;</span>Wygeneruj losowe opcje PG</button></p></li>";
   CC += "</ul>";
   CC += "<div id='ccRandomOutput'><p>&mdash;</p></div>";
   CC += "<div id='ccRandomOutputDetail'></div>";
@@ -23508,7 +23508,7 @@ function ccPrintDomainCard(x) {
     linkDomain(domaincardList[x].domainGen) +
     " <a href='#define-domain-card'>" +
     domaincardList[x].type +
-    "</a></li><li>Recall Cost: " +
+    "</a></li><li>Koszt odwołania: " +
     domaincardList[x].recall +
     "<span class='og-recall' aria-hidden='true'>&#9889;</span></strong></li></ul>";
   dc += domaincardList[x].effects;
@@ -24097,7 +24097,7 @@ function ccPrintAdditionalStatistics() {
   summary += "<h5 class='h6'>Sprzęt i wyposażenie</h5>";
   summary += "<ul class='og-list-inline og-ref og-omit'>";
   summary +=
-    "<li>Primary Weapon <a href='#" +
+    "<li>Broń główna <a href='#" +
     getID(
       "define-weapon-primary-" + weaponprimaryList[ccUserWeaponPrimary].label,
     ) +
@@ -24106,7 +24106,7 @@ function ccPrintAdditionalStatistics() {
     "</a></li>";
   if (weaponprimaryList[ccUserWeaponPrimary].burden == "One-Handed") {
     summary +=
-      "<li>Secondary Weapon <a href='#" +
+      "<li>Broń drugorzędna <a href='#" +
       getID(
         "define-weapon-secondary-" +
           weaponsecondaryList[ccUserWeaponSecondary].label,
@@ -24116,7 +24116,7 @@ function ccPrintAdditionalStatistics() {
       "</a></li>";
   }
   summary +=
-    "<li>Armor <a href='#" +
+    "<li>Pancerz <a href='#" +
     getID("define-armor-" + armorList[ccUserArmor].label) +
     "'>" +
     armorList[ccUserArmor].label +
@@ -24124,10 +24124,10 @@ function ccPrintAdditionalStatistics() {
   summary +=
     "<li>" + linkConsumable(consumableList[ccUserConsumable].label) + "</li>";
   summary += "<li>" + classesList[ccUserClass].items[ccUserClassItem] + "</li>";
-  summary += "<li><a href='#define-gold'>Gold</a> 1 handful</li>";
-  summary += "<li>Torch</li>";
-  summary += "<li>50 feet (15 m) of rope</li>";
-  summary += "<li>Basic supplies</li>";
+  summary += "<li><a href='#define-gold'>Złoto</a> 1 garść</li>";
+  summary += "<li>Pochodnia</li>";
+  summary += "<li>50 stóp (15 m) liny</li>";
+  summary += "<li>Podstawowe przybory</li>";
   summary += "</ul>";
   // report traits
   summary += "<h5 class='h6'>Cechy i statystyki</h5>";
@@ -24169,31 +24169,31 @@ function ccPrintAdditionalStatistics() {
     getNum(classesList[ccUserClass].traitarray[5]) +
     "</li>";
   // report statistics
-  summary += "<li><a href='#define-level'>Level</a> 1</li>";
+  summary += "<li><a href='#define-level'>Poziom</a> 1</li>";
   summary +=
-    "<li><a href='#define-evasion'>Evasion</a> " +
+    "<li><a href='#define-evasion'>Unik</a> " +
     (userEvasion + userEvasionBonus) +
     "</li>";
   summary +=
-    "<li><a href='#define-armor'>Armor</a> " +
+    "<li><a href='#define-armor'>Pancerz</a> " +
     (userArmor + userArmorBonus) +
     "</li>";
   summary +=
-    "<li><a href='#define-hp'>Thresholds</a> " +
+    "<li><a href='#define-hp'>Progi obrażeń</a> " +
     (armorList[ccUserArmor].thresholdmajor + userThresholdBonus) +
     "/" +
     (armorList[ccUserArmor].thresholdsevere + userThresholdBonus) +
     "</li>";
   summary +=
-    "<li><a href='#define-hp'>Hit Points</a> " +
+    "<li><a href='#define-hp'>Punkty Wytrzymałości</a> " +
     (userHP + userHPBonus) +
     "</li>";
   summary +=
-    "<li><a href='#define-stress'>Stress</a> " +
+    "<li><a href='#define-stress'>Stres</a> " +
     (userStress + userStressBonus) +
     "</li>";
-  summary += "<li><a href='#define-damage'>Proficiency</a> 1</li>";
-  summary += "<li><a href='#define-hope'>Hope</a> 2</li>";
+  summary += "<li><a href='#define-damage'>Biegłość</a> 1</li>";
+  summary += "<li><a href='#define-hope'>Nadzieja</a> 2</li>";
   summary += "</ul>";
   document.getElementById("ccRandomOutput").innerHTML = summary;
   refreshTooltips();
@@ -24305,7 +24305,7 @@ function printClasses() {
     }
     if (classesList[i].name == "druid") {
       classContent +=
-        "<li class='d-block'><a href='#define-druid-beastform-options'>Beastform Options</a></li>";
+        "<li class='d-block'><a href='#define-druid-beastform-options'>Opcje form zwierzęcych</a></li>";
     }
     if (classesList[i].name == "ranger") {
       classContent +=
@@ -24320,19 +24320,19 @@ function printClasses() {
   classContent += "<div class='col-12 col-md-6'>"; // open col
   classContent += "<div id='define-class'>"; // open def
   classContent +=
-    "<h3 id='classes'>Class<a class='og-h-anchor' href='#classes' title='Permalink' aria-hidden='true'></a></h3>";
+    "<h3 id='classes'>Klasa<a class='og-h-anchor' href='#classes' title='Permalink' aria-hidden='true'></a></h3>";
   classContent += getReferences(["DH Core 27"]);
   classContent +=
-    "<p>A <strong>class</strong> is a role-based archetype that grants you:</p>";
+    "<p><strong>Klasa</strong> jst archetypem opartym o odgrywaną rolę, która daje ci:</p>";
   classContent += "<ul class='og-list-disc'>";
-  classContent += "<li>Access to two <a href='#define-domain'>domains</a></li>";
+  classContent += "<li>Dostęp do dwóch <a href='#define-domain'>domen</a></li>";
   classContent +=
-    "<li>Starting <a href='#define-evasion'>Evasion</a> and <a href='#define-hp'>Hit Points</a></li>";
-  classContent += "<li>Starting items</li>";
+    "<li>Początkowy <a href='#define-evasion'>Unik</a> i <a href='#define-hp'>Punkty wytrzymałości</a></li>";
+  classContent += "<li>Początkowe przedmioty</li>";
   classContent +=
-    "<li>Class features, including a <a href='#define-hope'>Hope Feature</a></li>";
+    "<li>Właściwości klasy, w tym <a href='#define-hope'>Właściwość Nadziei</a></li>";
   classContent +=
-    "<li>A choice of <a href='#define-subclass'>subclass</a></li>";
+    "<li>Wybór <a href='#define-subclass'>podklasy</a></li>";
   classContent += "</ul>";
   classContent += "<ul class='og-list-inline og-tooltip-block'>";
   for (let i = 0; i < classesList.length; i++) {
@@ -24340,30 +24340,30 @@ function printClasses() {
   }
   classContent += "</ul>";
   classContent += getSidebar(
-    "<p>When you reach <a href='#define-level'>Level 5</a> or higher, you can select the <a href='#define-multiclass'>Multiclassing</a> advancement, gaining a second class and <a href='#define-subclass'>subclass</a>.</p>",
+    "<p>Gdy osiągniesz <a href='#define-level'>Poziom 5</a> lub wyższy, możesz wybrać ulepszenie <a href='#define-multiclass'>Wieloklasowości</a>, otrzymując drugą klasę i <a href='#define-subclass'>podklasę</a>.</p>",
   );
   classContent += "</div>"; // close def
   classContent += "</div>"; // close col
   classContent += "<div class='col-12 col-md-6'>"; // open col
   classContent += "<div id='define-subclass'>"; // open def
   classContent +=
-    "<h4 id='subclasses'>Subclass<a class='og-h-anchor' href='#subclasses' title='Permalink' aria-hidden='true'></a></h4>";
+    "<h4 id='subclasses'>Podklasa<a class='og-h-anchor' href='#subclasses' title='Permalink' aria-hidden='true'></a></h4>";
   classContent += getReferences(["DH Core 27"]);
   classContent +=
-    "<p>Each <a href='#define-class'>class</a> is divided into subclasses that further refine their archetype.</p>";
+    "<p>Każda <a href='#define-class'>klasa</a> jest podzielona na podklasy, które w bardziej szczegółowy sposób definiują jej archetyp.</p>";
   classContent += "<dl>";
-  classContent += "<dt>Spellcast Trait</dt>";
+  classContent += "<dt>Cecha Czarowania</dt>";
   classContent +=
-    "<dd>If the subclass casts spells, this is the <a href='#define-trait'>trait</a> <a href='#define-procedure'>modifier</a> added to <a href='#define-spellcast-roll'>Spellcast Rolls</a> and is sometimes used to determine a spell's <a href='#define-damage'>damage roll</a>.</dd>";
-  classContent += "<dt>Właściwości podstawowe</dt>";
+    "<dd>Jeśli podklasa potrafi rzucać czary, to <a href='#define-procedure'>modyfikator</a> tej <a href='#define-trait'>cechy</a> jest dodawany do <a href='#define-spellcast-roll'>rzutów na Czarowanie</a> i czasami jest używany do określenia <a href='#define-damage'>rzutu na obrażenia</a> przypisanego do zaklęcia.</dd>";
+  classContent += "<dt>Właściwości Podstawowe</dt>";
   classContent +=
-    "<dd>These features gained at <a href='#define-level'>Level 1</a>.</dd>";
-  classContent += "<dt>Właściwości specjalizacji</dt>";
+    "<dd>To właściwości, które otrzymuje się na <a href='#define-level'>Poziomie 1</a>.</dd>";
+  classContent += "<dt>Właściwości Specjalizacji</dt>";
   classContent +=
-    "<dd>At <a href='#define-tier'>Tier 3</a>, you can purchase the Enhanced Subclass <a href='#define-advancement'>advancement</a> to gain its Specialization Features.</dd>";
-  classContent += "<dt>Właściwości mistrza</dt>";
+    "<dd>Przy <a href='#define-tier'>Randze 3</a> możesz nabyć <a href='#define-advancement'>ulepszenie</a> Rozszerzonej Podklasy, aby otrzymać jej Właściwości Specjalizacji.</dd>";
+  classContent += "<dt>Właściwości Mistrza</dt>";
   classContent +=
-    "<dd>At <a href='#define-tier'>Tier 4</a>, if you already have its Specialization Features, you can purchase another Enhanced Subclass <a href='#define-advancement'>advancement</a> to gain its Mastery Features.</dd>";
+    "<dd>Przy <a href='#define-tier'>Randze 4</a>, jeśli masz już Właściwości Specjalizacji podklasy, możesz nabyć kolejne <a href='#define-advancement'>ulepszenie</a> Rozszerzonej Podklasy, aby otrzymać jej Właściwości Mistrza.</dd>";
   classContent += "</dl>";
   classContent += "</div>"; // close def
   classContent += "</div>"; // close col
@@ -24386,7 +24386,7 @@ function printClasses() {
     classRecord += "<p class='og-omit'>" + classesList[i].summary + "</p>";
     classRecord += "<div class='og-topbar'><ul class='list-unstyled'>";
     classRecord +=
-      "<li><strong>Domains:</strong> <ul class='d-inline og-list-inline'>";
+      "<li><strong>Domeny:</strong> <ul class='d-inline og-list-inline'>";
     for (
       let domainCount = 0;
       domainCount < classesList[i].domains.length;
@@ -24407,15 +24407,15 @@ function printClasses() {
     }
     classRecord += "</ul></li>";
     classRecord +=
-      "<li><strong><span class='og-omit'>Starting</span> Evasion:</strong> " +
+      "<li><strong><span class='og-omit'>Początkowy</span> Unik:</strong> " +
       classesList[i].evasion +
       "</li>";
     classRecord +=
-      "<li><strong><span class='og-omit'>Starting</span> Hit Points:</strong> " +
+      "<li><strong><span class='og-omit'>Początkowe</span> Punkty Wytrzymałości:</strong> " +
       classesList[i].hp +
       "</li>";
     classRecord +=
-      "<li class='d-block'><strong>Class Items:</strong> " +
+      "<li class='d-block'><strong>Przedmioty klasowe:</strong> " +
       classesList[i].items[0].charAt(0).toUpperCase() +
       classesList[i].items[0].slice(1) +
       ", or " +
@@ -24444,32 +24444,32 @@ function printClasses() {
     }
     if (classesList[i].label == "Czarownik") {
       classRecord += "<div class='og-topbar og-omit'>"; // open topbar
-      classRecord += "<h4 class='h6'>Sphere of Influence Examples</a></h4>";
+      classRecord += "<h4 class='h6'>Przykłady sfer wpływu</a></h4>";
       classRecord += "<ul class='og-list-inline og-ref'>";
-      classRecord += "<li>Ambition</li>";
-      classRecord += "<li>Artists</li>";
+      classRecord += "<li>Ambicja</li>";
+      classRecord += "<li>Artyści</li>";
       classRecord += "<li>Chaos</li>";
-      classRecord += "<li>Darkness</li>";
-      classRecord += "<li>Death</li>";
-      classRecord += "<li>Gamblers</li>";
+      classRecord += "<li>Ciemność</li>";
+      classRecord += "<li>Śmierć</li>";
+      classRecord += "<li>Hazardziści</li>";
       classRecord += "<li>Honor</li>";
-      classRecord += "<li>Justice</li>";
-      classRecord += "<li>Leaders</li>";
-      classRecord += "<li>Love</li>";
-      classRecord += "<li>Mercy</li>";
-      classRecord += "<li>Mischief</li>";
-      classRecord += "<li>Nature</li>";
-      classRecord += "<li>Protectors</li>";
-      classRecord += "<li>Revenge</li>";
-      classRecord += "<li>Scholars</li>";
-      classRecord += "<li>Secrets</li>";
-      classRecord += "<li>Soldiers</li>";
-      classRecord += "<li>Strength</li>";
-      classRecord += "<li>Travelers</li>";
-      classRecord += "<li>Tricksters</li>";
-      classRecord += "<li>Truth</li>";
-      classRecord += "<li>War</li>";
-      classRecord += "<li>Wisdom</li>";
+      classRecord += "<li>Sprawiedliwość</li>";
+      classRecord += "<li>Przywódcy</li>";
+      classRecord += "<li>Miłość</li>";
+      classRecord += "<li>Miłosierdzie</li>";
+      classRecord += "<li>Szelmostwo</li>";
+      classRecord += "<li>Przyroda</li>";
+      classRecord += "<li>Obrońcy</li>";
+      classRecord += "<li>Zemsta</li>";
+      classRecord += "<li>Uczeni</li>";
+      classRecord += "<li>Sekrety</li>";
+      classRecord += "<li>Żołnierze</li>";
+      classRecord += "<li>Siła</li>";
+      classRecord += "<li>Podróżnicy</li>";
+      classRecord += "<li>Tricksterzy</li>";
+      classRecord += "<li>Prawda</li>";
+      classRecord += "<li>Wojna</li>";
+      classRecord += "<li>Mądrość</li>";
       classRecord += "</ul>";
       classRecord += "</div>"; // close topbar
     }
@@ -24928,7 +24928,7 @@ function printDomains() {
   let domainContent = "";
   domainContent += "<div id='define-domain'>"; // open def
   domainContent +=
-    "<h2 id='domains'>Domains<a class='og-h-anchor' href='#domains' title='Permalink' aria-hidden='true'></a></h2>";
+    "<h2 id='domains'>Domeny<a class='og-h-anchor' href='#domains' title='Permalink' aria-hidden='true'></a></h2>";
   domainContent += "<div class='alert ps-4 pb-0 og-omit'>"; // open index
   domainContent += "<ul class='list-unstyled og-qr-compact'>";
   for (let i = 0; i < domainList.length; i++) {
@@ -24943,7 +24943,7 @@ function printDomains() {
   domainContent += "</div>"; // close index
   domainContent += getReferences(["DH Core 24"]);
   domainContent +=
-    "<p>Each <a href='#define-class'>class</a> grants access to two thematic <strong>domains</strong>. Each includes a collection of <a href='#define-domain-card'>domain cards</a>.</p>";
+    "<p>Każda <a href='#define-class'>klasa</a> daje dostęp do dwóch tematycznych <strong>domen</strong>. Każda z nich zawiera kolekcję <a href='#define-domain-card'>kart domen</a>.</p>";
   domainContent += "<ul class='og-list-inline og-tooltip-block'>";
   for (let i = 0; i < domainList.length; i++) {
     domainContent +=
@@ -26557,17 +26557,17 @@ function printRanges() {
   iRange +=
     "<dd>When an <a href='#define-adversary'>adversary</a> is spotlighted, they can move within <strong>Close</strong> range and take an <a href='#define-adversary-action'>adversary action</a>. Alternatively, they can mvoe within <a href='#define-range'>Very Far</a> range without taking an action.</dd>";
   iRange += "</dl>";
-  iRange += "<h4 class='h6'>Ranges</h4>";
+  iRange += "<h4 class='h6'>Zasięgi</h4>";
   iRange +=
     "<div class='table-responsive'><table class='table table-light table-striped table-sm mb-3'>";
-  iRange += "<caption>Ranges</caption>";
+  iRange += "<caption>Zasięgi</caption>";
   iRange += "<thead>";
   iRange += "<tr>";
-  iRange += "<th scope='col'>Range</th>";
-  iRange += "<th scope='col'>Description</th>";
-  iRange += "<th scope='col'>Movement</th>";
-  iRange += "<th class='text-end' scope='col'>Feet</th>";
-  iRange += "<th class='text-end' scope='col'>Meters</th>";
+  iRange += "<th scope='col'>Zasięg</th>";
+  iRange += "<th scope='col'>Opis</th>";
+  iRange += "<th scope='col'>Ruch</th>";
+  iRange += "<th class='text-end' scope='col'>Stopy</th>";
+  iRange += "<th class='text-end' scope='col'>Metry</th>";
   iRange += "</tr>";
   iRange += "</thead>";
   iRange += "<tbody>";
@@ -26595,20 +26595,20 @@ function printRanges() {
   iRange += "<div class='og-topbar'>";
   iRange += "<div id='define-defined-ranges'>";
   iRange +=
-    "<h4 id='optional-rule-defined-ranges'>Optional Rule: Defined Ranges<a class='og-h-anchor' href='#optional-rule-defined-ranges' title='Permalink' aria-hidden='true'></a></h4>";
+    "<h4 id='optional-rule-defined-ranges'>Zasada opcjonalna: Zdefiniowane zasięgi<a class='og-h-anchor' href='#optional-rule-defined-ranges' title='Permalink' aria-hidden='true'></a></h4>";
   iRange += getReferences(["DH Core 103"]);
   iRange +=
     "<p>If you would rather play with more precise <a href='#define-range'>range</a> rules, the conversions below assume 1 inch (2.5 cm) of map represents 5 feet (1.5 m).</p>";
   iRange +=
     "<div class='table-responsive'><table class='table table-light table-striped table-sm mb-3'>";
-  iRange += "<caption>Defined Ranges</caption>";
+  iRange += "<caption>Zdefiniowane zasięgi</caption>";
   iRange += "<thead>";
   iRange += "<tr>";
-  iRange += "<th scope='col'>Range</th>";
-  iRange += "<th scope='col'>Ruler</th>";
-  iRange += "<th class='text-center' scope='col'>Squares</th>";
-  iRange += "<th class='text-end' scope='col'>Inches</th>";
-  iRange += "<th class='text-end' scope='col'>Centimeters</th>";
+  iRange += "<th scope='col'>Zasięg</th>";
+  iRange += "<th scope='col'>Miara</th>";
+  iRange += "<th class='text-center' scope='col'>Kratki</th>";
+  iRange += "<th class='text-end' scope='col'>Cale</th>";
+  iRange += "<th class='text-end' scope='col'>Centymetry</th>";
   iRange += "</tr>";
   iRange += "</thead>";
   iRange += "<tbody>";
