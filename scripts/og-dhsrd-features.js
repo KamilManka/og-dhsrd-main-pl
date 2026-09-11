@@ -35,35 +35,35 @@ const classesList = [
     summarybrief:
       "<strong><a href='#define-assassin'>Asasyni</a></strong> są mistrzami zadawania śmiertelnych obrażeń z pomocą precyzyjnych ciosów.",
     summary:
-      "Assassins are masters at inflicting deadly injuries with precise strikes. Unlike those who wield violence as only a means to an end, assassins approach death as a profession. Many members of this class believe theirs is a worthy, if not sacred, trade, and some join guilds to hone their craft, define their beliefs, and earn money. People from all walks of life hire assassins for their skills: powerful rulers looking to avoid all-out war, business leaders seeking to eliminate the competition, and even average people hoping to settle a grudge. Often, an assassin is the last resort for killing those previously believed to be unkillable. While some of these deadly professionals will destroy anyone in their path for the right reasons or the right price, others hold strict moral codes or personal rules that dictate their targets. Those who end up the target of an assassin should count themselves among the dead.",
+      "Asasyni są mistrzami zadawania śmiertelnych obrażeń z pomocą precyzyjnych ciosów. W przeciwieństwie do tych, którzy używają przemocy wyłącznie jako środka do celu, asasyni podchodzą do śmierci jak do zawodu. Wielu członków tej klasy uważa, że ich praca jest godna uznania, jeśli nie święta, i niektórzy dołączają do gildii, aby doskonalić swoje rzemiosło, określać swoje przekonania i zarabiać pieniądze. Ludzie z różnych środowisk zatrudniają asasynów ze względu na ich umiejętności: potężni władcy chcący uniknąć wojny totalnej, liderzy biznesowi pragnący wyeliminować konkurencję, a nawet zwykli ludzie mający nadzieję na wyrównanie rachunków. Często asasyn jest ostatnią deską ratunku w uśmierceniu tych, którzy wcześniej uważani byli za niemożliwych do zabicia. Podczas gdy niektórzy z tych śmiertelnie niebezpiecznych profesjonalistów zniszczą każdego na swojej drodze dla odpowiednich powodów lub odpowiedniej ceny, inni trzymają się surowych kodeksów moralnych lub osobistych zasad, które dyktują ich cele. Ci, którzy stają się celem asasyna, powinni liczyć siebie za umarłych.",
     domains: ["Ostrze", "Północ"],
     evasion: 12,
     hp: 5,
     items: [
-      "a list of names with several marked off",
-      "rusted blade inscribed with an insignia",
+      "Lista imion, z których niektóre są skreślone",
+      "pordzewiałe ostrze noszące wyryte insygnia",
     ],
     hopefeature:
-      "<p><strong><em>Deadly Determination:</em></strong> <strong><a href='#define-hope'>Spend 3 Hope</a></strong> to clear 2 <a href='#define-stress'>Stress</a>.</p>",
+      "<p><strong><em>Zabójca determinacja:</em></strong> <strong><a href='#define-hope'>Wydaj 3 Nadzieje</a></strong>, aby usunąć 2 <a href='#define-stress'>Stresy</a>.</p>",
     features: [
-      "<p><strong><em>Marked for Death:</em></strong> On a successful <a href='#define-weapon'>weapon</a> attack, you can <strong><a href='#define-stress'>mark a Stress</a></strong> to make the target <em>Marked for Death</em>. When you deal damage to a target you've <em>Marked for Death</em>, add a number of <strong>d4s</strong> equal to your <a href='#define-tier'>tier</a> to the <a href='#define-damage'>damage roll</a>.</p><p>You can only have one <a href='#define-adversary'>adversary</a> <em>Marked for Death</em> at a time. This <a href='#define-condition'>condition</a> lasts until you take a <a href='#define-downtime'>rest</a>, the current <a href='#define-adversary'>adversary</a> <em>Marked for Death</em> is defeated, or the GM spends a number of <a href='#define-fear'>Fear</a> equal to your <a href='#define-tier'>tier</a> to clear it.</p>",
-      "<p><strong><em>Get In &amp; Get Out:</em></strong> <strong><a href='#define-hope'>Spend a Hope</a></strong> to ask the GM for a quick or inconspicuous way into or out of a place you can see. The next roll you make that acts on this information has <a href='#define-advantage'>advantage</a>.</p>",
+      "<p><strong><em>Naznaczony na śmierć:</em></strong> Po udanym ataku <a href='#define-weapon'>bronią</a>, możesz <strong><a href='#define-stress'>zaznaczyć Stres</a></strong>, by nadać celowi status <em>Naznaczony na śmierć</em>. Gdy zadasz obrażenia celowi, którego <em>Naznaczyłeś na śmierć</em>, dodaj do <a href='#define-damage'>rzutu na obrażenia</a> liczbę <strong>k4</strong> równą twojej <a href='#define-tier'>randze</a>.</p><p>Tylko jeden z twoich <a href='#define-adversary'>przeciwników</a> może być <em>Naznaczony na śmierć</em> na raz przez ciebie. Ten <a href='#define-condition'>stan</a> utrzymuje się albo aż do twojego <a href='#define-downtime'>odpoczynku</a>, albo aż dopóki obecny <a href='#define-adversary'>przeciwnik</a> <em>Naznaczony na śmierć</em> nie zostanie pokonany, albo póki MG nie wyda liczby <a href='#define-fear'>Strachu</a> równej twojej <a href='#define-tier'>randze</a>, by go usunąć.</p>",
+      "<p><strong><em>Wślizgnę i wyślizgnę się:</em></strong> <strong><a href='#define-hope'>Wydaj Nadzieję</a></strong>, żeby poprosić MG o możliwość szybkiego lub niepostrzeżonego wślizgnięcia się lub wyślizgnięcia z miejsca, które widzisz. Kolejny rzut, który wykonujesz na podstawie tej informacji, otrzymuje <a href='#define-advantage'>ułatwienie</a>.</p>",
     ],
     sidebar: "",
     subclasses: ["Gildia Katów", "Gildia Trucicieli"],
     traitarray: [2, -1, 1, 0, 0, 1],
-    weaponprimary: "Broadsword",
-    weaponsecondary: "Shortsword",
-    armor: "Leather Armor",
+    weaponprimary: "pałasz",
+    weaponsecondary: "krótki miecz",
+    armor: "skórzana zbroja",
     questions: [
-      "You once killed someone you were close to. What happened, and how did it change you?",
-      "What organization trained you in the art of killing, and how did you become a member?",
-      "Throughout your career, one target has eluded you. Who are they, and how have they slipped through your fingers?",
+      "Kiedyś zabiłeś kogoś, kto był ci bliski. Co się wydarzyło i jak to cię zmieniło?",
+      "Jaka organizacja wyszkoliła cię w sztuce zabijania i w jaki sposób zostałeś jej członkiem?",
+      "Przez lata wykonywania zawodu jeden cel ciągle ci umyka. Kto to jest i w jaki sposób wyślizgnął się z twoich rąk?",
     ],
     connections: [
-      "I've killed someone for you. Who were they?",
-      "How did you save me when I was on the brink of death? What have I promised you as repayment?",
-      "What secret about myself did I tell you, and how did it change your view of me?",
+      "Zabiłem kogoś dla ciebie. Kto to był?",
+      "W jaki sposób uratowałeś mnie, kiedy byłem na skraju śmierci? Co ci obiecałem jako wynagrodzenie?",
+      "Jaki sekret na mój temat ci ujawniłem i w jaki sposób wpłynął ona na twoje zdanie o mnie?",
     ],
     qualities:
       "As an <a href='#define-assassin'>Assassin, you utilize unmatched stealth and precision to ambush the unwary.",
@@ -91,33 +91,33 @@ const classesList = [
     name: "bard",
     pages: ["DH Core 28"],
     summarybrief:
-      "<strong><a href='#define-bard'>Bards</a></strong> are the most charismatic people in all the realms.",
+      "<strong><a href='#define-bard'>Bardowie</a></strong> są najbardziej charyzmatycznymi spośród ludzi wszystkich krain.",
     summary:
-      "Bards are the most charismatic people in all the realms. Members of this class are masters of captivation and specialize in a variety of performance types, including singing, playing musical instruments, weaving tales, or telling jokes. Whether performing for an audience or speaking to an individual, bards thrive in social situations. Members of this profession bond and train at schools or guilds, but a current of egotism runs through those of the bardic persuasion. While they may be the most likely class to bring people together, a bard of ill temper can just as easily tear a party apart.",
+      "Bardowie są najbardziej charyzmatycznymi spośród ludzi wszystkich krain. Członkowie tej klasy są mistrzami oczarowania publiczności i specjalizują się w różnorodnych formach występów takich jak śpiewanie, gra na instrumentach, snucie opowieści czy opowiadanie żartów. Czy występują przed publicznością, czy rozmawiają z jedną osobą, bardowie błyszczą w sytuacjach towarzyskich. Członkowie tej profesji gromadzą się i ćwiczą w  szkołach lub gildiach, jednak tych, którzy podążają ścieżką bardów, cechuje pewien egotyzm. Choć mogą być klasą najbardziej skłonną do łączenia ludzi, bard o złym usposobieniu równie łatwo może podzielić drużynę.",
     domains: ["Gracja", "Kodeks"],
     evasion: 10,
     hp: 5,
-    items: ["a romance novel", "a letter never opened"],
+    items: ["powieść romantyczna", "nigdy nie otwarty list"],
     hopefeature:
-      "<p><strong><em>Make a Scene:</em></strong> <strong><a href='#define-hope'>Spend 3 Hope</a></strong> to <a href='#define-temporary'>temporarily</a> <em>Distract</em> a target within <a href='#define-range'>Close</a> range, giving them a &minus;2 penalty to their <a href='#define-difficulty'>Difficulty</a>.</p>",
+      "<p><strong><em>Zrób scenę:</em></strong> <strong><a href='#define-hope'>Wydaj 3 Nadzieje</a></strong>, aby <a href='#define-temporary'>tymczasowo</a> <em>Rozproszyć</em> cel <a href='#define-range'>Bliskim</a> zasięgu, dając mu karne &minus;2 do jego <a href='#define-difficulty'>Poziomu trudności</a>.</p>",
     features: [
-      "<p><strong><em>Rally:</em></strong> Once per session, describe how you rally the party and give yourself and each of your allies a Rally Die. At level 1, your Rally Die is a <strong>d6</strong>. A PC can spend their Rally Die to roll it, adding the result to their <a href='#define-action'>action roll</a>, <a href='#define-reaction-roll'>reaction roll</a>, <a href='#define-damage'>damage roll</a>, or to clear a number of <a href='#define-stress'>Stress</a> equal to the result. At the end of each session, clear all unspent Rally Dice. At level 5, your Rally Die increases to a <strong>d8</strong>.</p>",
+      "<p><strong><em>Zagrzewanie:</em></strong> Raz na sesję opisz, jak zagrzewasz drużynę i udziel sobie i każdemu swojemy sojusznikowi Kość Zachęty. Na Poziomie 1 twoją Kością Zachęty jest <strong>k6</strong>. PG może zużyć swoją Kość Zachęty, by nią rzucić i dodać jej wynik do <a href='#define-action'>rzutu akcji</a>, <a href='#define-reaction-roll'>rzutu reakcji</a>, <a href='#define-damage'>rzutu na obrażenia</a> albo aby usunąć liczbę <a href='#define-stress'>Stresu</a> równą wynikowi. Na końcu sesji usuń wszystkie niezużyte Kości Zachęty. Na Poziomie 5 twoja Kość Zachęty wzrasta do <strong>k8</strong>.</p>",
     ],
     sidebar: "",
     subclasses: ["Trubadur", "Mistrz Słowa"],
     traitarray: [0, -1, 1, 0, 2, 1],
-    weaponprimary: "Rapier",
-    weaponsecondary: "Small Dagger",
-    armor: "Gambeson Armor",
+    weaponprimary: "rapier",
+    weaponsecondary: "mały sztylet",
+    armor: "przeszywanica",
     questions: [
-      "Who from your community taught you to have such confidence in yourself?",
-      "You were in love once. Who did you adore, and how did they hurt you?",
-      "You've always looked up to another bard. Who are they, and why do you idolize them?",
+      "Kto z twojej społeczności nauczył cię mieć tyle pewności siebie?",
+      "Kiedyś byłeś zakochany. Kogo kochałeś i jak ta osoba cię zraniła?",
+      "Zawsze podziwiałeś innego barda. Kim on jest i dlaczego go idealizujesz?",
     ],
     connections: [
-      "What made you realize we were going to be such good friends?",
-      "What do I do that annoys you?",
-      "Why do you grab my hand at night?",
+      "Jak zdałeś sobie sprawę z tego, że będziemy tacy dobrymi przyjaciółmi?",
+      "Co takiego robię, co cię drażni?",
+      "Dlaczego chwytasz mnie za rękę w nocy?",
     ],
     qualities:
       "As a <a href='#define-bard'>Bard</a>, you know how to get people to talk, bring attention to yourself, and use words or music to influence the world around you.",
@@ -151,7 +151,7 @@ const classesList = [
     domains: ["Męstwo", "Kość"],
     evasion: 10,
     hp: 6,
-    items: ["hand wraps from a mentor", "a book about your secret hobby"],
+    items: ["bandaże na dłonie od mentora", "książka na temat twojej tajemnej pasji"],
     hopefeature:
       "<p><strong><em>Square Up:</em></strong> <strong><a href='#define-hope'>Spend 3 Hope</a></strong> to intimidate a target within <a href='#define-range'>Close</a> range, making them temporarily <a href='#define-condition'><em>Vulnerable</em></a>.</p>",
     features: [
@@ -161,9 +161,9 @@ const classesList = [
     sidebar: "",
     subclasses: ["Taran", "Mistrz Sztuk Walki"],
     traitarray: [1, 1, 0, 2, 0, -1],
-    weaponprimary: "Quarterstaff",
+    weaponprimary: "pałka bojowa",
     weaponsecondary: "",
-    armor: "Leather Armor",
+    armor: "skórzana zbroja",
     questions: [
       "Where did you spend time during your formative years that taught you, directly or indirectly, how to fight in the style you use?",
       "What organization has vowed to kill you on sight, and what did you do to invoke their ire?",
@@ -1827,28 +1827,27 @@ const domainList = [
       "<p>Ci, którzy wybierają tę ścieżkę, korzystają z nieokiełznanych, tajemniczych sił, by mieć władzę nad swoją własną energią, jak i nad żywiołami. Arkana pozwalają dzierżyć nieprzewidywalną moc, jest ona jednak niesłychanie potężna, gdy umiejętnie się ją okiełzna i ukierunkuje.</p>",
   },
   {
-    label: "Ostrze",
-	labelGen: "Ostrza",
-    name: "blade",
-    pages: ["DH Core 24", "DH Core 329"],
-    theme: "Mistrzostwo broni",
+    label: "Gracja",
+    name: "grace",
+	labelGen: "Gracji",
+    pages: ["DH Core 24", "DH Core 334"],
+    theme: "Charyzma",
     summarybrief:
-      "Dzierżący <strong><a href='#define-blade'>Ostrze</a></strong>, oddają się osiągnięciu niezwyciężonej władzy nad śmiercią.",
+      "<strong><a href='#define-grace'>Grace</a></strong> offers its wielders raw magnetism and mastery over language.",
     summary:
-      "<p>Czy to z pomocą stali, łuku, czy bardziej wyspecjalizowanej broni, ci, którzy podążają tą ścieżką są szczególnie uzdolnieni w ukracaniu życia innych. Dzierżący Ostrze, oddają się osiągnięciu niezwyciężonej władzy nad śmiercią.</p>",
+      "<p>Through rapturous storytelling, charming spells, or a shroud of lies, those who channel this power define the realities of their adversaries, bending perception to their will. Grace offers its wielders raw magnetism and mastery over language.</p>",
+  },
+    {
+    label: "Groza",
+    name: "dread",
+	labelGen: "Grozy",
+    pages: ["DH HF 4", "DH HF 180"],
+    theme: "Koszmary i strach",
+    summarybrief: "<strong><a href='#define-dread'>Dread</a></strong>",
+    summary:
+      "<p>Those who choose this path can call forth monstrosities, enfeeble their foes, and channel terrifying magic to destroy their enemies. Dread grants its adherents power over forces most are too afraid to employ.</p>",
   },
   // { label: "Blood", name: "blood", pages: [""], theme: "", summarybrief: ".", summary: "<p></p>" },
-  {
-    label: "Kość",
-	labelGen: "Kości",
-    name: "bone",
-    pages: ["DH Core 24", "DH Core 331"],
-    theme: "Taktyka i ciało",
-    summarybrief:
-      "Adherents to <strong><a href='#define-bone'>Bone</a></strong> gain an unparalleled understanding of bodies and their movements.",
-    summary:
-      "<p>Practitioners of this domain have an uncanny control over their own physical abilities and an eye for predicting the behaviors of others in combat. Adherents to Bone gain an unparalleled understanding of bodies and their movements.</p>",
-  },
   {
     label: "Kodeks",
 	labelGen: "Kodeksu",
@@ -1860,37 +1859,16 @@ const domainList = [
     summary:
       "<p>Those who seek magical knowledge turn to the equations of power recorded in books, written on scrolls, etched into walls, or tattooed on bodies. Codex offers a commanding and versatile understanding of magic to devotees who pursue knowledge beyond the boundaries of common wisdom.</p>",
   },
-  {
-    label: "Groza",
-    name: "dread",
-	labelGen: "Grozy",
-    pages: ["DH HF 4", "DH HF 180"],
-    theme: "Koszmary i strach",
-    summarybrief: "<strong><a href='#define-dread'>Dread</a></strong>",
-    summary:
-      "<p>Those who choose this path can call forth monstrosities, enfeeble their foes, and channel terrifying magic to destroy their enemies. Dread grants its adherents power over forces most are too afraid to employ.</p>",
-  },
-  {
-    label: "Gracja",
-    name: "grace",
-	labelGen: "Gracji",
-    pages: ["DH Core 24", "DH Core 334"],
-    theme: "Charyzma",
+ {
+    label: "Kość",
+	labelGen: "Kości",
+    name: "bone",
+    pages: ["DH Core 24", "DH Core 331"],
+    theme: "Taktyka i ciało",
     summarybrief:
-      "<strong><a href='#define-grace'>Grace</a></strong> offers its wielders raw magnetism and mastery over language.",
+      "Adherents to <strong><a href='#define-bone'>Bone</a></strong> gain an unparalleled understanding of bodies and their movements.",
     summary:
-      "<p>Through rapturous storytelling, charming spells, or a shroud of lies, those who channel this power define the realities of their adversaries, bending perception to their will. Grace offers its wielders raw magnetism and mastery over language.</p>",
-  },
-  {
-    label: "Północ",
-	labelGen: "Północy",
-    name: "midnight",
-    pages: ["DH Core 24", "DH Core 336"],
-    theme: "Cienie i tajemnica",
-    summarybrief:
-      "<strong><a href='#define-midnight'>Midnight</a></strong> offers practitioners the power to control and create enigmas.",
-    summary:
-      "<p>Whether by clever tricks, deft magic, or the cloak of night, those who channel these forces practice the art of obscurity and can uncover sequestered treasures. Midnight offers practitioners the power to control and create enigmas.</p>",
+      "<p>Practitioners of this domain have an uncanny control over their own physical abilities and an eye for predicting the behaviors of others in combat. Adherents to Bone gain an unparalleled understanding of bodies and their movements.</p>",
   },
   {
     label: "Mądrość",
@@ -1904,17 +1882,6 @@ const domainList = [
       "<p>Those who walk this path tap into the unfettered power of the earth and its creatures to unleash raw magic. Sage grants its adherents the vitality of a blooming flower and the ferocity of a ravenous predator.</p>",
   },
   {
-    label: "Splendor",
-	labelGen: "Splendoru",
-    name: "splendor",
-    pages: ["DH Core 24", "DH Core 340", "Errata"],
-    theme: "Życie",
-    summarybrief:
-      "<strong><a href='#define-splendor'>Splendor</a></strong> is the domain of life. Through this magic, followers gain the ability to heal and, to an extent, control death.",
-    summary:
-      "<p>Splendor is the domain of life. Through this magic, followers gain the ability to heal and, to an extent, control death.</p>",
-  },
-  {
     label: "Męstwo",
 	labelGen: "Męstwa",
     name: "valor",
@@ -1925,6 +1892,40 @@ const domainList = [
     summary:
       "<p>Whether through attack or defense, those who choose this discipline channel formidable strength to protect their allies in battle. Valor offers great power to those who raise their shields in defense of others.</p>",
   },
+  {
+    label: "Ostrze",
+	labelGen: "Ostrza",
+    name: "blade",
+    pages: ["DH Core 24", "DH Core 329"],
+    theme: "Mistrzostwo broni",
+    summarybrief:
+      "Dzierżący <strong><a href='#define-blade'>Ostrze</a></strong>, oddają się osiągnięciu niezwyciężonej władzy nad śmiercią.",
+    summary:
+      "<p>Czy to z pomocą stali, łuku, czy bardziej wyspecjalizowanej broni, ci, którzy podążają tą ścieżką są szczególnie uzdolnieni w ukracaniu życia innych. Dzierżący Ostrze, oddają się osiągnięciu niezwyciężonej władzy nad śmiercią.</p>",
+  },
+  {
+    label: "Północ",
+	labelGen: "Północy",
+    name: "midnight",
+    pages: ["DH Core 24", "DH Core 336"],
+    theme: "Cienie i tajemnica",
+    summarybrief:
+      "<strong><a href='#define-midnight'>Midnight</a></strong> offers practitioners the power to control and create enigmas.",
+    summary:
+      "<p>Whether by clever tricks, deft magic, or the cloak of night, those who channel these forces practice the art of obscurity and can uncover sequestered treasures. Midnight offers practitioners the power to control and create enigmas.</p>",
+  },
+  {
+    label: "Splendor",
+	labelGen: "Splendoru",
+    name: "splendor",
+    pages: ["DH Core 24", "DH Core 340", "Errata"],
+    theme: "Życie",
+    summarybrief:
+      "<strong><a href='#define-splendor'>Splendor</a></strong> is the domain of life. Through this magic, followers gain the ability to heal and, to an extent, control death.",
+    summary:
+      "<p>Splendor is the domain of life. Through this magic, followers gain the ability to heal and, to an extent, control death.</p>",
+  }
+
 ];
 // domain cards
 const domaincardList = [
@@ -2723,7 +2724,7 @@ const domaincardList = [
     recall: 2,
     pages: ["DH Core 332", "DH Core 145/270"],
     effects:
-      "<ul class='list-unstyled'><li><p><strong><em>Power Push:</em></strong> Make a <strong><a href='#define-spellcast-roll'>Spellcast Roll</a></strong> against a target within <a href='#define-range'>Melee</a> range.</p><p>On a success, they're knocked back to <a href='#define-range'>Far</a> range and take <strong>d10+2</strong> <a href='#define-damage-type'>magic damage</a> using your <a href='#define-damage'>Proficiency</a>.</p></li><li><p><strong><em>Tava's Armor:</em></strong> <strong><a href='#define-hope'>Spend a Hope</a></strong> to give a target you can touch a +1 bonus to their <a href='#define-armor'>Armor Score</a> until their next <a href='#define-downtime'>rest</a> or you cast Tava's Armor again.</p></li><li><p><strong><em>Ice Spike:</em></strong> Make a <strong><a href='#define-spellcast-roll'>Spellcast Roll (12)</a></strong> to summon a large ice spike within <a href='#define-range'>Far</a> range. If you use it as a <a href='#define-weapon'>weapon</a>, make the <a href='#define-spellcast-roll'>Spellcast Roll</a> against the target's <a href='#define-difficulty'>Difficulty</a> instead. On a success, deal <strong>d6</strong> <a href='#define-damage-type'>physical damage</a> using your <a href='#define-damage'>Proficiency</a>.</p></li></ul>",
+      "<ul class='list-unstyled'><li><p><strong><em>Pchnięcie Mocy:</em></strong> Wykonaj <strong><a href='#define-spellcast-roll'>rzut na Czarowanie</a></strong> przeciwko celowi w zasięgu <a href='#define-range'>Zwarcia</a>.</p><p>Przy powodzeniu cel zostaje pchnięty do <a href='#define-range'>Dalekiego</a> zasięgu, przewrócony i otrzymuje <strong>k10+2</strong> <a href='#define-damage-type'>magicznych obrażeń</a> z użyciem twoje <a href='#define-damage'>Biegłości</a>.</p></li><li><p><strong><em>Zbroja Tavy:</em></strong> <strong><a href='#define-hope'>Wydaj Nadzieję</a></strong>, by udzielić celowi, którego możesz dotknąć, +1 bonusu do jego <a href='#define-armor'>wskaźnika Pancerza</a> aż do jego następnego <a href='#define-downtime'>odpoczynku</a> albo dopóki nie rzucisz Zbroi Tavy ponownie.</p></li><li><p><strong><em>Lodowe Ostrze:</em></strong> Wykonaj a <strong><a href='#define-spellcast-roll'>rzut na Czarowanie (12)</a></strong>, aby przywołać duże lodowe ostrze w <a href='#define-range'>Dalekim</a> zasięgu. Jeśli używasz go jako <a href='#define-weapon'>broni</a>, zamiast tego wykonaj <a href='#define-spellcast-roll'>rzut na Czarowanie</a> przeciwko <a href='#define-difficulty'>Stopniowi Trudności</a> celu. Przy powodzeniu zadaj <strong>56</strong> <a href='#define-damage-type'>fizycznych obrażeń</a> z użyciem twojej <a href='#define-damage'>Biegłości</a>.</p></li></ul>",
   },
   {
     label: "Księga Illiat",
@@ -4232,7 +4233,7 @@ const domaincardList = [
   },
   // valor cards
   {
-    label: "Bare Bones",
+    label: "Bez osłony",
     name: "bare-bones",
     domain: "Męstwo",
     domainGen: "Męstwa",
@@ -4241,7 +4242,7 @@ const domaincardList = [
     recall: 0,
     pages: ["DH Core 341", "DH Core 250/270"],
     effects:
-      "<p>When you choose not to equip armor, you have a base <a href='#define-armor'>Armor Score</a> of 3 + your <a href='#define-strength'>Strength</a> and use the following as your base <a href='#define-hp'>damage thresholds</a>:</p><ul class='og-list-disc'><li><strong><em>Tier 1:</em></strong> 9/19</li><li><strong><em>Tier 2:</em></strong> 11/24</li><li><strong><em>Tier 3:</em></strong> 13/31</li><li><strong><em>Tier 4:</em></strong> 15/38</li></ul>",
+      "<p>Kiedy decydujesz się nie zakładać pancerza, twój podstawowy <a href='#define-armor'>wskaźnik Pancerza</a> wynosi 3 + twoja <a href='#define-strength'>Siła</a> i korzystasz z poniższych jako swoich <a href='#define-hp'>progów obrażeń</a>:</p><ul class='og-list-disc'><li><strong><em>Ranga 1:</em></strong> 9/19</li><li><strong><em>Ranga 2:</em></strong> 11/24</li><li><strong><em>Ranga 3:</em></strong> 13/31</li><li><strong><em>Ranga 4:</em></strong> 15/38</li></ul>",
   },
   {
     label: "Forceful Push",
@@ -24323,7 +24324,7 @@ function printClasses() {
     "<h3 id='classes'>Klasa<a class='og-h-anchor' href='#classes' title='Permalink' aria-hidden='true'></a></h3>";
   classContent += getReferences(["DH Core 27"]);
   classContent +=
-    "<p><strong>Klasa</strong> jst archetypem opartym o odgrywaną rolę, która daje ci:</p>";
+    "<p><strong>Klasa</strong> jest archetypem opartym o odgrywaną rolę, która daje ci:</p>";
   classContent += "<ul class='og-list-disc'>";
   classContent += "<li>Dostęp do dwóch <a href='#define-domain'>domen</a></li>";
   classContent +=
@@ -24418,7 +24419,7 @@ function printClasses() {
       "<li class='d-block'><strong>Przedmioty klasowe:</strong> " +
       classesList[i].items[0].charAt(0).toUpperCase() +
       classesList[i].items[0].slice(1) +
-      ", or " +
+      " albo " +
       classesList[i].items[1] +
       "</li>";
     classRecord += "</ul></div>";
