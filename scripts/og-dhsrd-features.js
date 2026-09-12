@@ -4490,6 +4490,7 @@ const ancestryList = [
   // { label: "Ancestryname", name: "ancestryid", pages: [""], summarybrief: "<strong><a href='#define-ancestryid'>Ancestryname</a></strong> .", summary: "<p>Ancestryname .", featurecard: [""], featurelabel: ["Feature1", "Feature2"], features: ["<p><strong><em>Feature1:</em></strong> </p>", "<p><strong><em>Feature2:</em></strong> </p>", ], },
   {
     label: "Eteris",
+    labelGen: "Eterisa",
     name: "aetheris",
     pages: ["DH HF 19"],
     summarybrief:
@@ -4505,6 +4506,7 @@ const ancestryList = [
   },
   {
     label: "Klank",
+    labelGen: "Klanka",
     name: "clank",
     pages: ["DH Core 53"],
     summarybrief:
@@ -4520,6 +4522,7 @@ const ancestryList = [
   },
   {
     label: "Drakona",
+    labelGen: "Drakony",
     name: "drakona",
     pages: ["DH Core 54"],
     summarybrief:
@@ -4535,6 +4538,7 @@ const ancestryList = [
   },
   {
     label: "Krasnolud",
+    labelGen: "Krasnoluda",
     name: "dwarf",
     pages: ["DH Core 55"],
     summarybrief:
@@ -4550,6 +4554,7 @@ const ancestryList = [
   },
   {
     label: "Earthkin",
+    labelGen: "Earthkina",
     name: "earthkin",
     pages: ["DH HF 21"],
     summarybrief:
@@ -4565,6 +4570,7 @@ const ancestryList = [
   },
   {
     label: "Elf",
+    labelGen: "Elfa",
     name: "elf",
     pages: ["DH Core 56"],
     summarybrief:
@@ -4580,6 +4586,7 @@ const ancestryList = [
   },
   {
     label: "Emberkin",
+    labelGen: "Emberkina",
     name: "emberkin",
     pages: ["DH HF 22"],
     summarybrief:
@@ -4595,6 +4602,7 @@ const ancestryList = [
   },
   {
     label: "Faerie",
+    labelGen: "Faerie",
     name: "faerie",
     pages: ["DH Core 57"],
     summarybrief:
@@ -4610,6 +4618,7 @@ const ancestryList = [
   },
   {
     label: "Faun",
+    labelGen: "Fauna",
     name: "faun",
     pages: ["DH Core 58"],
     summarybrief:
@@ -4625,6 +4634,7 @@ const ancestryList = [
   },
   {
     label: "Firbolg",
+    labelGen: "Firbolga",
     name: "firbolg",
     pages: ["DH Core 59"],
     summarybrief:
@@ -4640,6 +4650,7 @@ const ancestryList = [
   },
   {
     label: "Fungril",
+    labelGen: "Fungrila",
     name: "fungril",
     pages: ["DH Core 60"],
     summarybrief:
@@ -4655,6 +4666,7 @@ const ancestryList = [
   },
   {
     label: "Galapa",
+    labelGen: "Galapy",
     name: "galapa",
     pages: ["DH Core 61"],
     summarybrief:
@@ -4670,6 +4682,7 @@ const ancestryList = [
   },
   {
     label: "Gigant",
+    labelGen: "Giganta",
     name: "giant",
     pages: ["DH Core 62"],
     summarybrief:
@@ -4685,6 +4698,7 @@ const ancestryList = [
   },
   {
     label: "Gnom",
+    labelGen: "Gnoma",
     name: "gnome",
     pages: ["DH HF 25"],
     summarybrief:
@@ -4700,6 +4714,7 @@ const ancestryList = [
   },
   {
     label: "Goblin",
+    labelGen: "Goblina",
     name: "goblin",
     pages: ["DH Core 63"],
     summarybrief:
@@ -4715,6 +4730,7 @@ const ancestryList = [
   },
   {
     label: "Niziołek",
+    labelGen: "Niziołka",
     name: "halfling",
     pages: ["DH Core 64"],
     summarybrief:
@@ -4730,6 +4746,7 @@ const ancestryList = [
   },
   {
     label: "Człowiek",
+    labelGen: "Człowieka",
     name: "human",
     pages: ["DH Core 65"],
     summarybrief:
@@ -4745,6 +4762,7 @@ const ancestryList = [
   },
   {
     label: "Infernis",
+    labelGen: "Infernisa",
     name: "infernis",
     pages: ["DH Core 66"],
     summarybrief:
@@ -4760,6 +4778,7 @@ const ancestryList = [
   },
   {
     label: "Katari",
+    labelGen: "Katari",
     name: "katari",
     pages: ["DH Core 67"],
     summarybrief:
@@ -4775,6 +4794,7 @@ const ancestryList = [
   },
   {
     label: "Ork",
+    labelGen: "Orka",
     name: "orc",
     pages: ["DH Core 68"],
     summarybrief:
@@ -4790,6 +4810,7 @@ const ancestryList = [
   },
   {
     label: "Ribbet",
+    labelGen: "Ribbeta",
     name: "ribbet",
     pages: ["DH Core 69"],
     summarybrief:
@@ -4805,6 +4826,7 @@ const ancestryList = [
   },
   {
     label: "Simiah",
+    labelGen: "Simiaha",
     name: "simiah",
     pages: ["DH Core 70"],
     summarybrief:
@@ -4820,6 +4842,7 @@ const ancestryList = [
   },
   {
     label: "Skykin",
+    labelGen: "Skykina",
     name: "skykin",
     pages: ["DH HF 23"],
     summarybrief:
@@ -4835,6 +4858,7 @@ const ancestryList = [
   },
   {
     label: "Tidekin",
+    labelGen: "Tidekina",
     name: "tidekin",
     pages: ["DH HF 24"],
     summarybrief:
@@ -22496,17 +22520,17 @@ function printCC() {
     "<h3 id='character-creation-summary'>Skrót tworzenia postaci<a class='og-h-anchor' href='#character-creation-summary' title='Permalink' aria-hidden='true'></a></h3>";
   CC += getReferences(["Dodatek redakcji"]);
   CC += getCCnote(
-    "This character creation guide begins with a random set of options.",
+    "Ten przewodnik po tworzeniu postaci zaczyna się od losowego zestawu opcji.",
   );
   CC += "<ul class='og-list-disc og-questions small'>";
   CC +=
-    "<li>There is a 20% chance for a (random) <a href='#define-mixed-ancestry'>mixed ancestry</a>.</li>";
+    "<li>Istnieje 20% szansa na (losowy) <a href='#define-mixed-ancestry'>mieszany rodowód</a>.</li>";
   CC +=
-    "<li><a href='#define-equipment'>Equipment</a>, clothing and attitude are suggested based on class.</li>";
+    "<li>Sugestie co do <a href='#define-equipment'>sprzętu</a>, odzieży i charakteru opierają się o wybraną klasę.</li>";
   CC +=
-    "<li><a href='#define-trait'>Traits</a> use suggested arrays by class. Traits and statistic values include modifiers from ancestry, class, and equipment features.</li>";
+    "<li><a href='#define-trait'>Cechy</a> używają statystyk sugerowanych dla klasy. Cechy i statystyki zawierają modyfikatory wynikające z właściwości rodowodu, klasy oraz wyposażenia</li>";
   CC +=
-    "<li><a href='#define-experience'>Experiences</a> are drawn from two different categories.</li>";
+    "<li><a href='#define-experience'>Doświadczenia</a> pochodzą z dwóch różnych kategorii.</li>";
   CC += "</ul>";
   CC += "<ul class='list-inline'>";
   CC +=
@@ -22515,7 +22539,7 @@ function printCC() {
   CC += "<div id='ccRandomOutput'><p>&mdash;</p></div>";
   CC += "<div id='ccRandomOutputDetail'></div>";
   CC += getCCnote(
-    " Confirm or change any options you wish by reading the details below. Except for experiences and description, this summary will update accordingly.",
+    " Potwierdź lub zmień którąkolwiek z opcji wedle swego uznania na podstawie szczegółów podanych niżej. Poza doświadczeniami i opisem niniejsze podsumowanie ulegnie automatycznej aktualizacji.",
   );
   CC += "</div>"; // close alert
   CC += "</div>"; // close col
@@ -22697,15 +22721,15 @@ function printCC() {
   // choose weapon
   CC += "<h4 class='og-tab'>Broń i pancerz</h4>";
   CC += getCCnote(
-    "Use suggested <strong><a href='#define-weapon'>weapons</a></strong> and <strong><a href='#define-armor'>armor</a></strong>, or choose your own from the Tier 1 <strong><a href='#define-equipment'>equipment</a></strong> lists.",
+    "Użyj sugerowanych <strong><a href='#define-weapon'>broni</a></strong> i <strong><a href='#define-armor'>pancerza</a></strong> albo wybierz własne spośród listy <strong><a href='#define-equipment'>wyposażenia</a></strong> dla Rangi 1.",
   );
   CC += getCCnote(
-    "<span class='fst-normal'>&dagger; &mdash;</span> Check with the GM to find out if this equipment is an appropriate choice for the setting.",
+    "<span class='fst-normal'>&dagger; &mdash;</span> Zapytaj MG, czy to wyposażenie jest odpowiednim wyborem dla danego settingu.",
   );
   // choose primary weapon
   CC += "<div class='input-group mb-2'>";
   CC +=
-    "<label class='input-group-text fw-bold link-dark bg-light border-light' for='ccChooseWeaponPrimary'>Primary:</label>";
+    "<label class='input-group-text fw-bold link-dark bg-light border-light' for='ccChooseWeaponPrimary'>Główna:</label>";
   CC +=
     "<select class='form-select link-dark bg-light border-light og-cc-drop' id='ccChooseWeaponPrimary'>"; // pop options
   CC += "<option value='0'>&mdash;</option>";
@@ -22715,7 +22739,7 @@ function printCC() {
   // choose secondary weapon
   CC += "<div class='input-group mb-2' id='ccChooseWeaponSecondarySelect'>"; // begin hide
   CC +=
-    "<label class='input-group-text fw-bold link-dark bg-light border-light' for='ccChooseWeaponSecondary'>Secondary:</label>";
+    "<label class='input-group-text fw-bold link-dark bg-light border-light' for='ccChooseWeaponSecondary'>Drugorzędna:</label>";
   CC +=
     "<select class='form-select link-dark bg-light border-light og-cc-drop' id='ccChooseWeaponSecondary'>"; // pop options
   CC += "<option value='0'>&mdash;</option>";
@@ -22737,11 +22761,11 @@ function printCC() {
   // choose consumable
   CC += "<h4 class='og-tab'>Wyposażenie</h4>";
   CC += getCCnote(
-    "Choose a <strong><a href='#define-consumable'>consumable</a></strong>.",
+    "Wybierz przedmioty <strong><a href='#define-consumable'>zużywalne</a></strong>.",
   );
   CC += "<div class='input-group mb-2'>";
   CC +=
-    "<label class='input-group-text fw-bold link-dark bg-light border-light' for='ccChooseConsumable'>Consumable:</label>";
+    "<label class='input-group-text fw-bold link-dark bg-light border-light' for='ccChooseConsumable'>Zużywalne:</label>";
   CC +=
     "<select class='form-select link-dark bg-light border-light og-cc-drop' id='ccChooseConsumable'>"; // id
   for (let i = 0; i < consumableList.length; i++) {
@@ -22761,12 +22785,12 @@ function printCC() {
   // class item
   CC += "<div id='ccUserClassItem'><p>&mdash;</p></div>"; // pop id
   // end if
-  CC += "<h5 class='h6'>Additional Items</h5>";
+  CC += "<h5 class='h6'>Dodatkowe przedmioty</h5>";
   CC += "<ul class='og-list-disc'>";
-  CC += "<li>One <a href='#define-gold'>handful of gold</a></li>";
-  CC += "<li>Torch</li>";
-  CC += "<li>50 feet (15 m) of rope</li>";
-  CC += "<li>Basic supplies</li>";
+  CC += "<li>Jedna <a href='#define-gold'>garść złota</a></li>";
+  CC += "<li>Pochodnia</li>";
+  CC += "<li>50 stóp (15 m) liny</li>";
+  CC += "<li>Podstawowe przybory</li>";
   CC += "</ul>";
   CC += "</div>";
   CC += "</div>"; // close column 3
@@ -22884,12 +22908,12 @@ function ccChooseClass() {
     linkClass(classesList[ccUserClass].summarybrief) +
     "</p>";
   cDetail +=
-    "<h5 class='h6'>" + classesList[ccUserClass].name + "'s Hope Feature</h5>";
+    "<h5 class='h6'>Właściwość Nadziei " + classesList[ccUserClass].labelGen + "</h5>";
   cDetail +=
     "<ul class='list-unstyled'><li>" +
     classesList[ccUserClass].hopefeature +
     "</li></ul>";
-  cDetail += "<h5 class='h6'>Class Feature";
+  cDetail += "<h5 class='h6'>Właściwości klasy";
   if (classesList[ccUserClass].features.length > 1) {
     cDetail += "s";
   }
@@ -23244,7 +23268,7 @@ function ccChooseAncestry() {
       "<p class='og-questions small'>" +
       linkClass(ancestryList[a].summarybrief) +
       "</p>";
-    aDetail += "<h5 class='h6'>" + ancestryList[a].label + " Features</h6>";
+    aDetail += "<h5 class='h6'>Właściwości " + ancestryList[a].labelGen + "</h6>";
     aDetail += "<ul class='list-unstyled'>";
     for (let i = 0; i < ancestryList[a].features.length; i++) {
       aDetail += "<li>" + ancestryList[a].features[i] + "</li>";
@@ -23280,7 +23304,7 @@ function ccChooseCommunity() {
     communityList[ccUserCommunity].roleplay +
     "</p>";
   cDetail +=
-    "<h5 class='h6'>" + communityList[ccUserCommunity].label + " Feature</h6>";
+    "<h5 class='h6'>Właściwości " + communityList[ccUserCommunity].label + "</h6>";
   cDetail += "<ul class='list-unstyled'>";
   cDetail += "<li>" + communityList[ccUserCommunity].feature + "</li>";
   cDetail += "</ul>";
@@ -23374,7 +23398,7 @@ function ccChooseArmor() {
     armorList[ccUserArmor].score +
     "</a></li>";
   armor +=
-    "<li class='pb-1'><strong>Base Thresholds:</strong> <a href='#define-hp'>" +
+    "<li class='pb-1'><strong>Base Progi:</strong> <a href='#define-hp'>" +
     armorList[ccUserArmor].thresholdmajor +
     "/" +
     armorList[ccUserArmor].thresholdsevere +
@@ -23636,12 +23660,12 @@ function ccPrintAdditionalStatistics() {
   document.getElementById("ccChooseTraits").innerHTML = tArray;
   // additionalstatistics
   let userStats = "";
-  userStats += "<h4 class='og-tab'>Statistics</h4>";
+  userStats += "<h4 class='og-tab'>Statystyki</h4>";
   userStats += "<div class='row'>"; // open row
   // calculate level
   userStats += "<div class='col-12 col-md-6 col-lg-4'>"; // open col
   userStats +=
-    "<h5 class='h6 og-wrap'><a href='#define-level'>Level</a>&nbsp;&nbsp;" +
+    "<h5 class='h6 og-wrap'><a href='#define-level'>Poziom</a>&nbsp;&nbsp;" +
     1 +
     "</h5>";
   userStats += getCCnote(
@@ -23763,7 +23787,7 @@ function ccPrintAdditionalStatistics() {
   eMods += "</ul>";
   // print evasion
   userStats +=
-    "<h5 class='h6 og-wrap'><a href='#define-evasion'>Evasion</a>&nbsp;&nbsp;" +
+    "<h5 class='h6 og-wrap'><a href='#define-evasion'>Unik</a>&nbsp;&nbsp;" +
     (userEvasion + userEvasionBonus) +
     "</h5>";
   userStats += eMods;
@@ -23820,7 +23844,7 @@ function ccPrintAdditionalStatistics() {
   aMods += "</ul>";
   // print armor
   userStats +=
-    "<h5 class='h6 og-wrap'><a href='#define-armor'>Armor</a>&nbsp;&nbsp;" +
+    "<h5 class='h6 og-wrap'><a href='#define-armor'>Pancerz</a>&nbsp;&nbsp;" +
     (userArmor + userArmorBonus) +
     "</h5>";
   userStats += aMods;
@@ -23927,7 +23951,7 @@ function ccPrintAdditionalStatistics() {
   // thresholds
   // print thresholds
   userStats +=
-    "<h5 class='h6 og-wrap'><a href='#define-hp'>Thresholds</a>&nbsp;&nbsp;" +
+    "<h5 class='h6 og-wrap'><a href='#define-hp'>Progi</a>&nbsp;&nbsp;" +
     (armorList[ccUserArmor].thresholdmajor + userThresholdBonus) +
     "/" +
     (armorList[ccUserArmor].thresholdsevere +
@@ -23978,7 +24002,7 @@ function ccPrintAdditionalStatistics() {
   hpMods += "</ul>";
   // print hp
   userStats +=
-    "<h5 class='h6 og-wrap'><a href='#define-hp'>Hit Points</a>&nbsp;&nbsp;" +
+    "<h5 class='h6 og-wrap'><a href='#define-hp'>Punkty Wytrzymałości</a>&nbsp;&nbsp;" +
     (userHP + userHPBonus) +
     "</h5>";
   userStats += hpMods;
@@ -24020,7 +24044,7 @@ function ccPrintAdditionalStatistics() {
   }
   stressMods += "</ul>";
   userStats +=
-    "<h5 class='h6 og-wrap'><a href='#define-stress'>Stress</a>&nbsp;&nbsp;" +
+    "<h5 class='h6 og-wrap'><a href='#define-stress'>Stres</a>&nbsp;&nbsp;" +
     (userStress + userStressBonus) +
     "</h5>";
   userStats += stressMods;
@@ -24028,7 +24052,7 @@ function ccPrintAdditionalStatistics() {
   // calculate proficiency
   userStats += "<div class='col-12 col-md-6 col-lg-4'>"; // open col
   userStats +=
-    "<h5 class='h6 og-wrap'><a href='#define-damage'>Proficiency</a>&nbsp;&nbsp;" +
+    "<h5 class='h6 og-wrap'><a href='#define-damage'>Biegłość</a>&nbsp;&nbsp;" +
     1 +
     "</h5>";
   userStats += getCCnote(
